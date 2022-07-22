@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 189 278.4" style="enable-background:new 0 0 189 278.4;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{clip-path:url(#SVGID_00000174601133019115619330000014595035946565884085_);fill:url(#Rectangle_1848_00000153692586541077887230000015916772657365078958_);}
+	.st1{fill:#FC7783;}
+	.st2{fill:#FAFCFF;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-48.3" y="8.9" width="230" height="284"/>
+	</defs>
+	<clipPath id="SVGID_00000046322986293266779470000018089306222253370554_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<linearGradient id="Rectangle_1848_00000123429727139296462310000014077538638367821738_" gradientUnits="userSpaceOnUse" x1="-66.1604" y1="618.259" x2="-67.0554" y2="617.28" gradientTransform="matrix(429 0 0 -339 28794.1426 209519.9531)">
+		<stop  offset="0" style="stop-color:#FFB43C"/>
+		<stop  offset="1" style="stop-color:#FC6E8E"/>
+	</linearGradient>
+	
+		<path id="Rectangle_1848" style="clip-path:url(#SVGID_00000046322986293266779470000018089306222253370554_);fill:url(#Rectangle_1848_00000123429727139296462310000014077538638367821738_);" d="
+		M10.7-63.6v303c0,11,9,20,20,20h393v-323L10.7-63.6 M2.7-71.6h429v339h-401c-15.5,0-28-12.5-28-28V-71.6z"/>
+</g>
+<g id="Group_4973">
+	<circle id="Ellipse_41" class="st1" cx="173" cy="263" r="13"/>
+	<circle id="Ellipse_42" class="st2" cx="173" cy="263" r="6"/>
+</g>
+</svg>
