@@ -42,8 +42,7 @@ $query = new WP_Query($pargs);
             <div class="w-100"></div>
             <div class="col-xxl-4 col-xl-5 col-md-6 offset-md-1">
               <h4 class="font-light text-white line-height-lg">
-                LaSara Medical Group specializes in helping men who suffer from
-                erectile dysfunction (ED).
+              “We help you regenerate & optimize your sexual and physical health.
               </h4>
             </div>
           </div>

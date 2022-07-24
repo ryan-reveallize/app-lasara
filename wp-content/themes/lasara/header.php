@@ -28,6 +28,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/css/styles.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/css/new.css" />
     <?php wp_head(); ?>
   </head>
 
@@ -76,10 +77,16 @@
               <i class="fa-solid fa-chevron-down"></i>
               <div class="menu-child small-menu">
                 <ul class="sub-menu-list">
-                  <li class="menu-item"><a href="<?php echo get_site_url() ?>/blogs">Blogs</a></li>
-                  <li class="menu-item">
+                <li class="menu-item"><a href="<?php echo get_site_url() ?>/our-mission">Our Mission</a></li>
+                <li class="menu-item"><a href="<?php echo get_site_url() ?>/our-team">Our Team</a></li>
+                <li class="menu-item">
                     <a href="<?php echo get_site_url() ?>/testimonials">Testimonials</a>
                   </li>
+                  <li class="menu-item">
+                    <a href="<?php echo get_site_url() ?>/in-the-media">In the Media</a>
+                  </li>
+                  <li class="menu-item"><a href="<?php echo get_site_url() ?>/blogs">Blogs</a></li>
+             
                 </ul>
               </div>
             </li>
@@ -96,7 +103,7 @@
                         </h5>
                         <ul class="sub-menu-list">
                           <li class="menu-item">
-                            <a href="<?php echo get_site_url() ?>/testosterone-hormone-replace-therapy"
+                            <a href="<?php echo get_site_url() ?>/pt141-sexual-health-and-arousal"
                               >Testosterone Replacement Therapy</a
                             >
                           </li>

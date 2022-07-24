@@ -7,14 +7,16 @@
         <div class="container-fluid py-5 my-xl-5 z-1 cross-vertical-right">
           <div class="row py-lg-5">
             <div class="col-xl-4 col-md-6 offset-md-1">
-              <h1 class="text-white mb-5">Reinvigorate Your Sexual Health</h1>
+              <h1 class="text-white mb-5">Optimize your Body and Mind
+</h1>
             </div>
             <div class="w-100"></div>
             <div class="col-xxl-4 col-xl-5 col-md-6 offset-md-1">
               <h4 class="font-light text-white line-height-lg">
-                Peptide Therapy in Los Angeles, Orange County, and San Diego, CA
+              Peptide Therapy in Los Angeles, Orange County, and San Diego, CA
               </h4>
-            </div>
+            </div>  <div class="w-100"></div>
+            <div class="col-xxl-4 col-xl-5 col-md-6 offset-md-1 mt-5"><a href="" class="btn btn-grad">Shop Now</a></div>
           </div>
         </div>
       </section>
@@ -302,13 +304,8 @@
               </h2>
 
               <p class="text-white mb-5">
-                At LaSara Medical Group, we understand the unique challenges
-                faced by men and women. With offices in Los Angeles, Orange
-                County, and San Diego, our highest priority is to help you get
-                back to feeling more like yourself. Peptide therapy at LaSara
-                Medical Group provides a safe and effective way to improve and
-                rejuvenate your sexual health. If you are interested in learning
-                more about our peptide therapy treatments,
+              At LaSara Medical Group, we understand the unique challenges faced by men and women. With offices in Los Angeles, Orange County, and San Diego, our highest priority is to help you get back to feeling more like yourself. Peptide therapy at LaSara Medical Group provides a safe and effective way to improve and rejuvenate your health. If you are interested in learning more about our peptide therapy treatments, schedule a consultation with us today!
+
                 <a
                   href="<?php echo get_site_url() ?>/contact"
                   class="text-white text-underline font-bold"
@@ -324,7 +321,7 @@
         </div>
       </section>
       <section class="py-5">
-        <h2 class="mb-5 text-center">What We Offer</h2>
+        <h2 class="mb-5 text-center">Shop Peptides</h2>
         <div class="container-fluid px-xl-5">
         <div class="service-tile-container">
             <div class="service-tile p-2 p-lg-4">
@@ -336,7 +333,8 @@
                   />
                 </span>
                 <span class="h5 font-bold service-title"
-                  >Erectile Dysfunction</span
+                  >Vitality & Sex
+</span
                 >
               </a>
             </div>
@@ -349,7 +347,7 @@
                   />
                 </span>
                 <span class="h5 font-bold service-title"
-                  >Peyronies Disease</span
+                  >Strength</span
                 >
               </a>
             </div>
@@ -362,7 +360,7 @@
                   />
                 </span>
                 <span class="h5 font-bold service-title"
-                  >Lack Of Penile Sensitivity</span
+                  >Fat Loss</span
                 >
               </a>
             </div>
@@ -374,7 +372,7 @@
                     alt="Service Icon"
                   />
                 </span>
-                <span class="h5 font-bold service-title">Tennis Elbow </span>
+                <span class="h5 font-bold service-title">Adonis </span>
               </a>
             </div>
             <div class="service-tile p-2 p-lg-4">
@@ -386,7 +384,7 @@
                   />
                 </span>
                 <span class="h5 font-bold service-title"
-                  >Plantar Fasciitis</span
+                  >Growth Hormone with Sermorelin</span
                 >
               </a>
             </div>
@@ -398,7 +396,8 @@
                     alt="Service Icon"
                   />
                 </span>
-                <span class="h5 font-bold service-title">Scar Tissue</span>
+                <span class="h5 font-bold service-title">Recovery & Healing
+</span>
               </a>
             </div>
             <div class="service-tile p-2 p-lg-4">
@@ -415,7 +414,7 @@
                     class="service-img-png-white"
                   />
                 </span>
-                <span class="h5 font-bold service-title">Tendonopathy</span>
+                <span class="h5 font-bold service-title">Glow</span>
               </a>
             </div>
             <div class="service-tile p-2 p-lg-4">
@@ -432,7 +431,7 @@
                     class="service-img-png-white"
                   />
                 </span>
-                <span class="h5 font-bold service-title">Neuropathy</span>
+                <span class="h5 font-bold service-title">Flow</span>
               </a>
             </div>
             <div class="service-tile p-2 p-lg-4">
@@ -450,21 +449,11 @@
                   />
                 </span>
                 <span class="h5 font-bold service-title"
-                  >Skin Tightening Wrinkles</span
+                  >Sexual Arousal</span
                 >
               </a>
             </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/muscle-pain-tear">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/pain-management.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Pain Management</span>
-              </a>
-            </div>
+         
           </div>
         </div>
       </section>

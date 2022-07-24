@@ -1,0 +1,33 @@
+.bg-img-overlay-right-small::before {
+  right: -276px;
+  bottom: -307px;
+}
+
+.bg-img-overlay-right-small::after {
+  right: -234px;
+  bottom: -224px;
+}
+
+.bg-img-overlay-left-small:before {
+  left: -272px;
+  bottom: -293px;
+}
+.bg-img-overlay-left-small:after {
+  left: -213px;
+  bottom: -201px;
+}
+
+.date {
+  color: #0083bf;
+  font-weight: 600;
+}
+
+.media-item img {
+  border-radius: 10px;
+}
+.media-item {
+  margin: 1rem;
+  border-radius: 1rem;
+  border: none;
+  position: relative;
+}

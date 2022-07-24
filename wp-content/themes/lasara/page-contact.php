@@ -35,46 +35,66 @@
                 </p>
               </div>
               <form action="#" class="">
+              <div class="mb-3">
+                  <label for="reason" class="form-label"
+                    >Patient Type <span class="text-secondary">*</span></label
+                  >
+                  <select name="reason" id="reason" class="form-select">
+                    <option value="">I am a New Patient</option>
+                    <option value="reason1">I am an Existing Patient
+</option>
+                  
+                  </select>
+                </div>
                 <div class="mb-3">
                   <label for="reason" class="form-label"
                     >Reason <span class="text-secondary">*</span></label
                   >
                   <select name="reason" id="reason" class="form-select">
                     <option value="">Select Reason</option>
-                    <option value="reason1">Reason 1</option>
-                    <option value="reason2">Reason 2</option>
+                    <option value="reason1">Schedule New Patient Health Assessment</option>
+                    <option value="reason2">Schedule Shockwave Treatments</option>
+                    <option value="reason3">Learn more about Men’s Sexual Health Treatments</option>
+                    <option value="reason4">Learn  more about Orthopedic and Pain Management Treatments
+</option>
+                    <option value="reason5">Learn more about Aesthetic Treatments
+</option>           <option value="reason6">Learn more about Peptides, Hormones, or Pharmaceutical Treatments
+</option>
                   </select>
                 </div>
                 <div class="mb-3">
                   <label for="location" class="form-label"
-                    >Location <span class="text-secondary">*</span></label
+                    >Preferred Office Location <span class="text-secondary">*</span></label
                   >
                   <select name="location" id="location" class="form-select">
                     <option value="">Select Location</option>
-                    <option value="location1">Location 1</option>
-                    <option value="location2">Location 2</option>
+                    <option value="location1">West Los Angeles</option>
+                    <option value="location2">Tustin of Orange County</option>
+                    <option value="location3">Encinitas of San Diego</option>
+                    <option value="location4">La Jolla of San Diego</option>
                   </select>
                 </div>
+           
                 <div class="mb-3">
-                  <label for="doctor" class="form-label"
-                    >Your Doctor Will Be Selected Based On The Reason For Your
-                    Visit. <span class="text-secondary">*</span></label
-                  >
-                  <select name="doctor" id="doctor" class="form-select">
-                    <option value="">Select Doctor</option>
-                    <option value="doctor1">Doctor 1</option>
-                    <option value="doctor2">Doctor 2</option>
-                  </select>
-                </div>
-                <div class="mb-3">
-                  <label for="fullname" class="form-label"
-                    >Full Name <span class="text-secondary">*</span></label
+                  <label for="firstname" class="form-label"
+                    >First Name <span class="text-secondary">*</span></label
                   >
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Full Name"
-                    id="fullname"
+                    placeholder="First Name"
+                    id="firstname"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="lastname" class="form-label"
+                    >Last Name <span class="text-secondary">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name"
+                    id="lastname"
                   />
                 </div>
                 <div class="row">

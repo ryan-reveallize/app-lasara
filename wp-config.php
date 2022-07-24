@@ -8,7 +8,7 @@
  *
  * This file contains the following configurations:
  *
- * * Database settings
+ * * MySQL settings
  * * Secret keys
  * * Database table prefix
  * * ABSPATH
@@ -18,17 +18,17 @@
  * @package WordPress
  */
 
-// ** Database settings - You can get this info from your web host ** //
+// ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'app-lasara' );
+define( 'DB_NAME', 'lasara' );
 
-/** Database username */
+/** MySQL database username */
 define( 'DB_USER', 'root' );
 
-/** Database password */
+/** MySQL database password */
 define( 'DB_PASSWORD', '' );
 
-/** Database hostname */
+/** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '>VSyZIK(_7m[GS&_0U76TAGedVLC(M@44qMJyEfZ;U]mkv{3H#`PbBL]M}TeWmgt' );
-define( 'SECURE_AUTH_KEY',  '~PIzA|llle;_b#YT>r[GgNS2[rpu0~?Q)<@.h=4_|L,oT+AxD0NE4VcWVg^Lc=n*' );
-define( 'LOGGED_IN_KEY',    '<YlD4o|X]Q3|(2L[,`~O7/2Kd@D0H%*5zE v3l6_NNc9 o85Vj$,DS2k9ix%B1L~' );
-define( 'NONCE_KEY',        'qT#dnYNB)>z)#)o993QkrA8=E=-st/<&gm3zZ|RRrFQ3Y AP)FB)C${{Mf_<:,]!' );
-define( 'AUTH_SALT',        'Y|33{@9~PE`o~Gp$fily~<eiiME&7py>NMxU5V]JxO]$JCr@~qFhC9{/iW{?kX67' );
-define( 'SECURE_AUTH_SALT', 'n#vmj38{WmnNWXL~_bf59q?&6K}&MzO8I<H2}S2C:|H8-i_|1?0h[ST)~DQ:DbVQ' );
-define( 'LOGGED_IN_SALT',   '*{;T13FyO#K$^O_:auz=nI]ti-v{9KZdz,UA?C^nvbq,1ei[`SR+yTkN5-Xo9kC5' );
-define( 'NONCE_SALT',       'A3MDW#,e[SP$!0{8;qO@yV$^FT:Izyaq=GN]|08]6k{P}FskufJ,&c5e:J(#j+=/' );
+define( 'AUTH_KEY',         '#BhqX4(#KE43AdbY~H+j$Bc-HHv<oO8SL1{R/z_sqiM*_W8^^mvt9Y#R|KAS_oNZ' );
+define( 'SECURE_AUTH_KEY',  'MaJwMhxh0OnC1qa_x4u,tS)xnx<=Pp2lN<$53<&Q#P8e,1u0l~TdGZRn; ]9jq}}' );
+define( 'LOGGED_IN_KEY',    '68<yG>[PbE:FEH<p6t>7|abFVuW:?B-aHzlE^]2QKp/RJ~Npj[cGW [LU?!8]f_c' );
+define( 'NONCE_KEY',        ' *$Q7{)C= hXZbMRn<<Io0)OU[lu9&-J `k7b&(hp>1:_WyT{3=<[`(j[pjxLoRA' );
+define( 'AUTH_SALT',        'bq=Br/VDx<M[.FS/`^m-GPp_Ae0HdV =Q6[PX(`w>l!ybg?c1JI$p#:}QMFVg67 ' );
+define( 'SECURE_AUTH_SALT', 'MYkrvq3/zE`p`v[hSY~zhg{#coA1%Lj<LO1:{vIoPj3jma=`?f%pTVHg]^}eh/52' );
+define( 'LOGGED_IN_SALT',   'i:6xW8M/w+Om5:hbXf0Yg%nz,;jbE<;6=EWzvqu[zx =e7K^M8ZDj~9$8XmepeJ.' );
+define( 'NONCE_SALT',       '1U50P)%SKG]]Exg`~jQIIcm@ P,==_}6o*t,]|N|-7XvkZSzGt%j^@Co89hTD@B^' );
 
 /**#@-*/
 
