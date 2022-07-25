@@ -40,7 +40,7 @@
                       <a href="<?php echo get_site_url() ?>/contact" class="text-white">Contact</a>
                     </li>
                     <li class="mb-2">
-                      <a href="#" class="text-white">New Patient Forms</a>
+                      <a href="https://lasara.formstack.com/forms/lasara_medical_group_new_patient_forms_packet" target="_blank" class="text-white">New Patient Forms</a>
                     </li>
                   </ul>
                 </div>

@@ -36,13 +36,14 @@ global $services;
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row align-items-end align-items-lg-center pt-lg-5">
-                  <div class="col-md-6 py-5 ps-sm-4 pe-lg-5 mb-5">
+                  <div class="col-md-6 col-lg-5 py-5 ps-sm-4 pe-lg-5 mb-5">
                     <h1 class="text-white display-4 font-black"><span class="d-lg-block">LaSara</span> Medical Group</h1>
                     <p
                       class="hero-sub font-light text-white mt-4 mb-5 line-height-lg text-justify"
                     >
                       We help you regenerate & optimize your sexual and physical
-                      health Offices in Los Angeles, Orange County, and San
+                      health<br/> 
+                      Offices in Los Angeles, Orange County, and San
                       Diego
                     </p>
                     <a href="<?php echo get_site_url() ?>/contact" class="btn btn-grad mb-4"
@@ -54,7 +55,7 @@ global $services;
                       >Learn More</a
                     >
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-lg-6 offset-lg-1">
                     <img
                       src="<?php bloginfo('template_directory')?>/img/slider-img-1.png"
                       alt="Slider Image"
@@ -189,8 +190,8 @@ global $services;
             >
               <h2 class="mb-4">About Our Practice</h2>
               <h5 class="font-extralight text-secondary mt-3 mb-4">
-              LaSara Medical Group is committed to helping our patients regenerate and optimize their health with innovative technology and products that deliver tangible outcomes for our patients. We specialize in Focused Shockwave Therapy, a revolutionary, non-invasive, and non-surgical solution to treat the root cause of dysfunctions, pain, and signs of aging.
-              </h5>
+              LaSara Medical Group is committed to helping our patients regenerate and optimize their health with innovative technology and products that deliver tangible outcomes for our patients.</h5>
+              <p>We specialize in Focused Shockwave Therapy, a revolutionary, non-invasive, and non-surgical solution to treat the root cause of dysfunctions, pain, and signs of aging.</p>
               <p>
               Regenerative medicine works to heal and grow human cells, tissues, and organs to restore normal function. Our treatments are risk free and proven with more than a decade of research. 
               </p>
