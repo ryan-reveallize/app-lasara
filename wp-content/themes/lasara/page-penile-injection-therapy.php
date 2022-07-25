@@ -1,8 +1,8 @@
 <?php get_header();?>
 <div class="main-container mt-4r">
       <section
-        class="bg-img bg-overlay bg-top bg-overlay-left-full py-5 bg-top bg-overlay-left-full"
-        data-background-image="<?php bloginfo('template_directory')?>/img/old-happy-couple-3.jpg"
+        class="bg-img bg-top bg-overlay-left-full py-5 bg-top bg-overlay-left-full"
+        data-background-image="<?php bloginfo('template_directory')?>/img/bg-penile.jpg"
       >
         <div class="container-fluid py-5 my-xl-5 z-1 cross-vertical-right">
           <div class="row py-lg-5">
@@ -124,43 +124,13 @@
             </div>
             <div class="col-md-7 ps-md-5">
               <div
-                class="sticky-top border-r-1 bg-img-overlay bg-img-overlay-sm-left"
+                class="sticky-top border-r-1 bg-img-overlay-sm-left"
               >
                 <img
-                  src="<?php bloginfo('template_directory')?>/img/benifits-penile-sensitivity.jpg"
+                  src="<?php bloginfo('template_directory')?>/img/side-penile.jpg"
                   alt="guy-laughing-on-phone"
                   class="img-fluid border-r-1"
                 />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="container-fluid px-xl-5 px-md-4">
-          <div
-            class="bg-img bg-overlay bg-top border-r-1 overflow-hidden mx-xxl-5 px-4 bg-overlay-right-full"
-            data-background-image="<?php bloginfo('template_directory')?>/img/a4.jpg"
-          >
-            <div
-              class="row justify-content-center align-items-center z-1 p-xl-5"
-            >
-              <div class="col-md-6 col-xl-5 pt-5 pb-md-5 pe-xl-5">
-                <h2 class="text-white display-4">
-                  Are You a Candidate for Penile Injection Therapy?
-                </h2>
-              </div>
-              <div class="col-md-6 col-xl-5 py-5">
-                <p class="text-white">
-                  If you are ready to find a solution for your erectile
-                  dysfunction, penile injection therapy at LaSara Medical Group
-                  can be a great solution for you. It is important to keep in
-                  mind that erectile dysfunction can have many causes, and
-                  oftentimes, it is helpful to determine the underlying
-                  condition that's causing your ED. If you are interested in
-                  finding out if you are a good candidate for penile injection
-                  therapy, schedule a consultation with us today!
-                </p>
               </div>
             </div>
           </div>
@@ -170,8 +140,8 @@
       <section class="py-5">
         <div class="container">
           <div
-            class="bg-img mb-5 bg-img-overlay border-r-1 bg-img-w-overlay bg-top bg-img-overlay-lg-right"
-            data-background-image="<?php bloginfo('template_directory')?>/img/candidate-penile-injection.jpg"
+            class="bg-img mb-5 border-r-1 bg-img-w-overlay bg-top bg-img-overlay-lg-right"
+            data-background-image="<?php bloginfo('template_directory')?>/img/top-penile.jpg"
           ></div>
           <div class="row justify-content-center">
             <div class="col-md-10">
@@ -354,150 +324,22 @@
         </div>
       </section>
 
-      <section class="py-5">
+      <section class="py-5 px-xl-5">
         <h2 class="mb-5 text-center">What We Offer</h2>
         <div class="container-fluid px-xl-5">
-           <div class="service-tile-container">
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/erectile-dysfunction-shockwave-therapy">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/erectile-dysfunction.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Erectile Dysfunction</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/peyronies-disease-or-penile-injury-shockwave-therapy">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/peyronies.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Peyronies Disease</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/penile-sensitivity-regeneration">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/penile-sensitivity.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Lack Of Penile Sensitivity</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/tennis-and-golfers-elbow">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/tennis-elbow.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Tennis Elbow </span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/plantar-fasciitis-heel-spurs">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/plantar-fasciitis.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Plantar Fasciitis</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/scar-reduction-face-body">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/scar-tissue.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Scar Tissue</span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/painful-shoulder-tendinopathy">
-                <span class="service-img me-1 me-md-3 service-img-png">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/tendonopathy.png"
-                    alt="Service Icon"
-                    class="service-img-png-og"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/tendonopathy-white.png"
-                    alt="Service Icon"
-                    class="service-img-png-white"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Tendonopathy</span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="#">
-                <span class="service-img me-1 me-md-3 service-img-png">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/neuropathy.png"
-                    alt="Service Icon"
-                    class="service-img-png-og"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/neuropathy-white.png"
-                    alt="Service Icon"
-                    class="service-img-png-white"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Neuropathy</span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/facial-skin-tightening-rejuvenation">
-                <span class="service-img me-1 me-md-3 service-img-png">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/skin-tightening-wrinkles.png"
-                    alt="Service Icon"
-                    class="service-img-png-og"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/skin-tightening-wrinkles-white.png"
-                    alt="Service Icon"
-                    class="service-img-png-white"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Skin Tightening Wrinkles</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/muscle-pain-tear">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/pain-management.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Pain Management</span>
-              </a>
-            </div>
-          </div>
-        </div>
+        <?php $services = [
+            'erectile-dysfunction-shockwave-therapy' => 'Erectile Dysfunction',
+            'peyronies-disease-or-penile-injury-shockwave-therapy' => 'Peyronie’s Disease',
+            'penile-sensitivity-regeneration' => 'Lack Of Penile Sensitivity',
+            'tennis-and-golfers-elbow' => 'Tennis Elbow',
+            'plantar-fasciitis-heel-spurs' => 'Plantar Fasciitis',
+            'scar-reduction-face-body' => 'Scar Tissue',
+            'jumpers-knee-patellar-tendinitis' => 'Tendonopathy',
+            'neuropathy' => 'Neuropathy',
+            'facial-skin-tightening-rejuvenation' => 'Skin Tightening Wrinkles',
+            'hip-pain' => 'Hip Pain',
+        ];?>            
+        <?php get_template_part( 'template-parts/service-tile-w-link' );?>
       </section>
     </div>
 

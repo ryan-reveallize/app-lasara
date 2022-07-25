@@ -1,18 +1,18 @@
 <?php get_header();?>
 <div class="main-container mt-4r">
       <section
-        class="bg-img bg-overlay py-5 bg-top bg-overlay-left-full"
+        class="bg-img py-5 bg-top bg-overlay-left-full"
         data-background-image="<?php bloginfo('template_directory')?>/img/guy-with-specs.jpg"
       >
         <div class="container-fluid py-5 my-xl-5 z-1 cross-vertical-right">
           <div class="row py-lg-5">
-            <div class="col-xl-3 col-md-6 offset-md-1">
-              <h1 class="display-4 text-white mb-5">
+            <div class="col-xl-4 col-md-6 offset-md-1">
+              <h1 class="text-white mb-5">
                 Eliminate Neuropathy, Restore Nerve Function
               </h1>
             </div>
             <div class="w-100"></div>
-            <div class="col-xxl-3 col-xl-5 col-md-6 offset-md-1">
+            <div class="col-xxl-4 col-xl-5 col-md-6 offset-md-1">
               <h3 class="font-light text-white line-height-lg">
                 Neuropathy Treatments in Los Angeles, Orange County, and San
                 Diego, CA
@@ -26,10 +26,10 @@
           <div class="row align-items-center">
             <div class="col-md-5 offset-md-1 pe-lg-5">
               <div
-                class="bg-img-overlay bg-img-overlay-sm-right sticky-top border-r-1 mb-5 mb-md-0 bg-img-overlay-sm-right"
+                class="bg-img-overlay-sm-right sticky-top border-r-1 mb-5 mb-md-0 bg-img-overlay-sm-right"
               >
                 <img
-                  src="<?php bloginfo('template_directory')?>/img/peptide-banner.jpg"
+                  src="<?php bloginfo('template_directory')?>/img/neuro-side.jpg"
                   alt="Old Couple"
                   class="img-fluid border-r-1"
                 />
@@ -272,8 +272,8 @@
       </section>
 
       <section
-        class="py-5 bg-img bg-overlay bg-top bg-overlay-right"
-        data-background-image="<?php bloginfo('template_directory')?>/img/smiling.jpg"
+        class="py-5 bg-img bg-top bg-overlay-right"
+        data-background-image="<?php bloginfo('template_directory')?>/img/neuro-side2.jpg"
       >
         <div class="container z-1">
           <div class="row justify-content-end py-lg-5">
@@ -299,150 +299,22 @@
           </div>
         </div>
       </section>
-      <section class="py-5">
+      <section class="py-5 px-xl-5">
         <h2 class="mb-5 text-center">What We Offer</h2>
         <div class="container-fluid px-xl-5">
-        <div class="service-tile-container">
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/erectile-dysfunction-shockwave-therapy">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/erectile-dysfunction.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Erectile Dysfunction</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/peyronies-disease-or-penile-injury-shockwave-therapy">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/peyronies.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Peyronies Disease</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/penile-sensitivity-regeneration">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/penile-sensitivity.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Lack Of Penile Sensitivity</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/tennis-and-golfers-elbow">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/tennis-elbow.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Tennis Elbow </span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/plantar-fasciitis-heel-spurs">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/plantar-fasciitis.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Plantar Fasciitis</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/scar-reduction-face-body">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/scar-tissue.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Scar Tissue</span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/painful-shoulder-tendinopathy">
-                <span class="service-img me-1 me-md-3 service-img-png">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/tendonopathy.png"
-                    alt="Service Icon"
-                    class="service-img-png-og"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/tendonopathy-white.png"
-                    alt="Service Icon"
-                    class="service-img-png-white"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Tendonopathy</span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="#">
-                <span class="service-img me-1 me-md-3 service-img-png">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/neuropathy.png"
-                    alt="Service Icon"
-                    class="service-img-png-og"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/neuropathy-white.png"
-                    alt="Service Icon"
-                    class="service-img-png-white"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Neuropathy</span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/facial-skin-tightening-rejuvenation">
-                <span class="service-img me-1 me-md-3 service-img-png">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/skin-tightening-wrinkles.png"
-                    alt="Service Icon"
-                    class="service-img-png-og"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/skin-tightening-wrinkles-white.png"
-                    alt="Service Icon"
-                    class="service-img-png-white"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Skin Tightening Wrinkles</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/muscle-pain-tear">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/pain-management.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Pain Management</span>
-              </a>
-            </div>
-          </div>
-        </div>
+        <?php $services = [
+            'erectile-dysfunction-shockwave-therapy' => 'Erectile Dysfunction',
+            'peyronies-disease-or-penile-injury-shockwave-therapy' => 'Peyronie’s Disease',
+            'penile-sensitivity-regeneration' => 'Lack Of Penile Sensitivity',
+            'tennis-and-golfers-elbow' => 'Tennis Elbow',
+            'plantar-fasciitis-heel-spurs' => 'Plantar Fasciitis',
+            'scar-reduction-face-body' => 'Scar Tissue',
+            'jumpers-knee-patellar-tendinitis' => 'Tendonopathy',
+            'neuropathy' => 'Neuropathy',
+            'facial-skin-tightening-rejuvenation' => 'Skin Tightening Wrinkles',
+            'hip-pain' => 'Hip Pain',
+        ];?>            
+        <?php get_template_part( 'template-parts/service-tile-w-link' );?>
       </section>
     </div>
 

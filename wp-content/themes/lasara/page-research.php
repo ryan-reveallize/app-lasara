@@ -1,10 +1,4 @@
 <?php get_header(); ?>
-<style>
-    .service-img{
-        max-width: 3rem;
-        min-width: 3rem;
-    }
-</style>
 <div class="main-container mt-4r">
     <section class="bg-img bg-top bg-overlay-left-full py-5 bg-overlay-left-full" data-background-image="<?php bloginfo('template_directory') ?>/img/bg-reseach.jpg">
         <div class="container-fluid py-5 my-xl-5 z-1 cross-vertical-right">

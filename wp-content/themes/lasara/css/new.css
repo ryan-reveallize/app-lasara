@@ -31,7 +31,10 @@
   border: none;
   position: relative;
 }
-
+.service-img{
+  max-width: 3rem;
+  min-width: 3rem;
+}
 .service-tile .service-img-svg{
   display: none;
 }
