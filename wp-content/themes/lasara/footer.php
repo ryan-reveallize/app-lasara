@@ -13,12 +13,7 @@
               </div>
               <p class="text-white mt-4 mb-2">
                 <small
-                  >LaSara Medical Group specializes in helping men who suffer
-                  from erectile dysfunction (ED). We offer our patients the
-                  latest in ED treatment, known as low intensity focused
-                  shockwave therapy. As pioneers of this treatment, we’ve seen
-                  unimaginable results and have treated more men than any clinic
-                  in our region.</small
+                  >LaSara Medical Group is committed to helping our patients regenerate and optimize their health with innovative technology and products that deliver tangible outcomes for our patients. We specialize in Focused Shockwave Therapy, a revolutionary, non-invasive, and non-surgical solution to treat the root cause of dysfunctions, pain, and signs of aging.</small
                 >
               </p>
               <a href="<?php echo get_site_url() ?>/about" class="text-white font-bold"
@@ -39,10 +34,7 @@
                       >
                     </li>
                     <li class="mb-2">
-                      <a href="#" class="text-white">Services</a>
-                    </li>
-                    <li class="mb-2">
-                      <a href="#" class="text-white">Research</a>
+                      <a href="<?php echo get_site_url() ?>/research" class="text-white">Research</a>
                     </li>
                     <li class="mb-2">
                       <a href="<?php echo get_site_url() ?>/contact" class="text-white">Contact</a>
@@ -55,34 +47,29 @@
                 <div class="col-6">
                   <h5 class="font-black text-white mb-4">Our Services</h5>
                   <ul class="list-unstyled p-0 text-small">
-                    <li class="mb-2">
-                      <a href="<?php echo get_site_url() ?>/erectile-dysfunction-shockwave-therapy" class="text-white"
-                        >Erectile Dysfunction</a
+                    <li class="mb-3">
+                      <a href="#" class="text-white"
+                        >Men’s Sexual Health Treatments</a
                       >
                     </li>
-                    <li class="mb-2">
-                      <a href="<?php echo get_site_url() ?>/peyronies-disease-or-penile-injury-shockwave-therapy" class="text-white"
-                        >Peyronies’s Disease</a
+                    <li class="mb-3">
+                      <a href="#" class="text-white"
+                        >Testosterone Replacement Therapy </a
                       >
                     </li>
-                    <li class="mb-2">
-                      <a href="<?php echo get_site_url() ?>/pt141-sexual-health-and-arousal" class="text-white"
-                        >Sexual Enhancement</a
+                    <li class="mb-3">
+                      <a href="#" class="text-white"
+                        >Performance Peptides & NAD+ </a
                       >
                     </li>
-                    <li class="mb-2">
-                      <a href="<?php echo get_site_url() ?>/peptide-therapy" class="text-white"
-                        >Shockwave Therapy</a
+                    <li class="mb-3">
+                      <a href="#" class="text-white"
+                        >Orthopedics & Pain Management</a
                       >
                     </li>
-                    <li class="mb-2">
-                      <a href="<?php echo get_site_url() ?>/testosterone-hormone-replace-therapy" class="text-white"
-                        >Hormone Replacement</a
-                      >
-                    </li>
-                    <li class="mb-2">
-                      <a href="<?php echo get_site_url() ?>/penile-injection-therapy" class="text-white"
-                        >Intracavernous Injection</a
+                    <li class="mb-3">
+                      <a href="#" class="text-white"
+                        >Aesthetics</a
                       >
                     </li>
                   </ul>
@@ -123,44 +110,44 @@
                 </div>
                 <div class="c-card bg-white py-3 ps-4 pe-5">
                   <p class="font-bold text-primary-light mb-3">
-                    LaSara Medical Group, Tustin, CA
+                  LaSara Medical Group, Los Angeles, CA
                   </p>
                   <p class="text-secondary text-smaller m-0">
                     Phone (appointments)
                   </p>
                   <p class="font-bold text-primary-light text-small mb-2">
-                    949-520-1551
+                    424-343-8998 
                   </p>
                   <p class="text-secondary text-smaller m-0">
                     Phone (general inquiries)
                   </p>
                   <p class="font-bold text-primary-light text-small mb-2">
-                    949-520-1551
+                    424-343-8998
                   </p>
                   <p class="text-secondary text-smaller m-0">Address</p>
                   <p class="font-bold text-primary-light text-small m-0">
-                    17411 Irvine Blvd., Suite J, Tustin, CA 92780
+                    11500 W Olympic Blvd, Suite 440, Los Angeles, CA 90064
                   </p>
                 </div>
                 <div class="c-card bg-white py-3 ps-4 pe-5">
                   <p class="font-bold text-primary-light mb-3">
-                    LaSara Medical Group, Tustin, CA
+                  LaSara Medical Group, Encinitas, CA
                   </p>
                   <p class="text-secondary text-smaller m-0">
                     Phone (appointments)
                   </p>
                   <p class="font-bold text-primary-light text-small mb-2">
-                    949-520-1551
+                  760-266-8466
                   </p>
                   <p class="text-secondary text-smaller m-0">
                     Phone (general inquiries)
                   </p>
                   <p class="font-bold text-primary-light text-small mb-2">
-                    949-520-1551
+                  760-266-8466 
                   </p>
                   <p class="text-secondary text-smaller m-0">Address</p>
                   <p class="font-bold text-primary-light text-small m-0">
-                    17411 Irvine Blvd., Suite J, Tustin, CA 92780
+                  285 N El Camino Real, Suite 211, Encinitas, CA 92024
                   </p>
                 </div>
               </div>
