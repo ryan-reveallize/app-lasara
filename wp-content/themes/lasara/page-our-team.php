@@ -229,9 +229,9 @@
             class="d-flex flex-column flex-lg-row align-items-center mb-5 animate__animated"
             data-animate="slideInUp"
           >
-            <h2 class="me-5">Our Location</h2>
-            <h3 class="font-extralight text-primary">
-              Choose Your Preferred Location
+            <h2 class="me-5">Our Locations</h2>
+            <h3 class="font-extralight text-primary ps-lg-5 border-lg-left">
+            Serving Los Angeles, Orange County, And San Diego
             </h3>
           </div>
           <div
@@ -291,9 +291,10 @@
             </div>
           </div>
           <div class="location_slick">
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-1.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-2.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-3.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-1a.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-2a.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-3a.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-4a.jpg" alt="Location" />
             <img src="<?php bloginfo('template_directory')?>/img/location/location-1.jpg" alt="Location" />
             <img src="<?php bloginfo('template_directory')?>/img/location/location-2.jpg" alt="Location" />
             <img src="<?php bloginfo('template_directory')?>/img/location/location-3.jpg" alt="Location" />

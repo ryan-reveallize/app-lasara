@@ -18,12 +18,16 @@
       >
         <div class="container py-lg-5">
           <div
-            class="d-flex flex-column flex-lg-row justify-content-lg-between mb-5"
+            class="d-flex flex-column flex-lg-row mb-5"
           >
-            <h2 class="me-5">Testimonials</h2>
-            <h3 class="font-extralight text-primary">
-              We’ve Changed The Lives Of Countless Men We Can Change Yours Too
-            </h3>
+            <div class="col-auto">
+              <h2 class="me-5">Testimonials</h2>
+            </div>
+            <div class="col-lg-8 ps-lg-5 border-lg-left">
+              <h3 class="font-extralight text-primary w-75">
+                We’ve Changed The Lives Of Countless Men We Can Change Yours Too
+              </h3>
+            </div>
           </div>
           <div class="testimonial_slick">
      

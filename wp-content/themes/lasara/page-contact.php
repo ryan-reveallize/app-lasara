@@ -204,36 +204,13 @@
                   </div>
                 </div>
                 <div class="contact_location_slick pt-5">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/location/location-1.jpg"
-                    alt="Location"
-                    class="border-r-1"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/location/location-2.jpg"
-                    alt="Location"
-                    class="border-r-1"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/location/location-3.jpg"
-                    alt="Location"
-                    class="border-r-1"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/location/location-1.jpg"
-                    alt="Location"
-                    class="border-r-1"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/location/location-2.jpg"
-                    alt="Location"
-                    class="border-r-1"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/location/location-3.jpg"
-                    alt="Location"
-                    class="border-r-1"
-                  />
+                  <img src="<?php bloginfo('template_directory')?>/img/location/location-1a.jpg" alt="Location" class="border-r-1"/>
+                  <img src="<?php bloginfo('template_directory')?>/img/location/location-2a.jpg" alt="Location" class="border-r-1"/>
+                  <img src="<?php bloginfo('template_directory')?>/img/location/location-3a.jpg" alt="Location" class="border-r-1"/>
+                  <img src="<?php bloginfo('template_directory')?>/img/location/location-4a.jpg" alt="Location" class="border-r-1"/>
+                  <img src="<?php bloginfo('template_directory')?>/img/location/location-1.jpg" alt="Location" class="border-r-1"/>
+                  <img src="<?php bloginfo('template_directory')?>/img/location/location-2.jpg" alt="Location" class="border-r-1"/>
+                  <img src="<?php bloginfo('template_directory')?>/img/location/location-3.jpg" alt="Location" class="border-r-1"/>
                 </div>
               </div>
             </div>

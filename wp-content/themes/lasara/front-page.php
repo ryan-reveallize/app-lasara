@@ -189,13 +189,14 @@ global $services;
             >
               <h2 class="mb-4">About Our Practice</h2>
               <h5 class="font-extralight text-secondary mt-3 mb-4">
-                LaSara Medical Group is committed to helping our patients regenerate and optimize their health with innovative technology and products that deliver tangible outcomes for our patients.
+              LaSara Medical Group is committed to helping our patients regenerate and optimize their health with innovative technology and products that deliver tangible outcomes for our patients. We specialize in Focused Shockwave Therapy, a revolutionary, non-invasive, and non-surgical solution to treat the root cause of dysfunctions, pain, and signs of aging.
               </h5>
               <p>
-              We specialize in Focused Shockwave Therapy, a revolutionary, non-invasive, and non-surgical solution to treat the root cause of dysfunctions, pain, and signs of aging.
+              Regenerative medicine works to heal and grow human cells, tissues, and organs to restore normal function. Our treatments are risk free and proven with more than a decade of research. 
               </p>
+              <p>Since 2017, we’ve completed over 11,000 Shockwave treatments and we have been changing the lives of men and women with our approach to healing the root cause of their challenges. In addition to our Focused Shockwave Therapy, we offer cutting edge treatments such as peptides and hormone therapies that, when paired with Shockwave, trigger even greater changes in the body and mind that last. </p>
               <p class="m-0">
-                Regenerative medicine works to heal and grow human cells, tissues, and organs to restore normal function. Our treatments are risk free and proven with more than a decade of research.
+              The human body is capable of amazing transformations, LaSara Medical Group is just the catalyst to make that happen! We hope we are given the chance to help you just as we have helped countless patients before you.
               </p>
               <a href="<?php echo get_site_url() ?>/about" class="btn btn-outline-secondary mt-5">Read More</a>
             </div>
@@ -231,11 +232,10 @@ global $services;
                 <ul class="list-check-grad mb-4">
                   <li class="mb-2"><a href="<?php echo get_site_url() ?>/erectile-dysfunction-shockwave-therapy">Erectile Dysfunction Shockwave Therapy</a></li>
                   <li class="mb-2"><a href="<?php echo get_site_url() ?>/peyronies-disease-or-penile-injury-shockwave-therapy">Peyronie’s Disease or Penile Injury Shockwave Therapy</a></li>
-                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/peptide-therapy">Peptides & Pharmaceuticals</a></li>
-                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/penile-injection-therapy">Penile Injection Therapy</a></li>
-                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/penile-sensitivity-regeneration">Penile Sensitivity Regeneration</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/penile-sensitivity-regeneration">Penile Sensitivity Regeneration Shockwave Therapy</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/pelvic-pain-syndrome-and-chronic-prostatitis">Pelvic Pain Syndrome and Chronic Prostatitis Shockwave Therapy</a></li>
                 </ul>
-                <a href="<?php echo get_site_url() ?>/about" class="btn btn-lg btn-grad">Learn More</a>
+                <a href="<?php echo get_site_url() ?>/why-lasara-vs-the-competition" class="btn btn-lg btn-grad">Why LaSara?</a>
               </div>
             </div>
             <div
@@ -252,7 +252,7 @@ global $services;
                   <li class="mb-2"><a href="<?php echo get_site_url() ?>/pharmaceuticals">Pharmaceutical Treatments</a></li>
                   <li class="mb-2"><a href="<?php echo get_site_url() ?>/peptide-therapy">Peptide Therapies</a></li>
                 </ul>
-                <a href="<?php echo get_site_url() ?>/about" class="btn btn-lg btn-grad">Learn More</a>
+                <a href="<?php echo get_site_url() ?>/why-lasara-vs-the-competition" class="btn btn-lg btn-grad">Why LaSara?</a>
               </div>
             </div>
           </div>
@@ -416,7 +416,7 @@ endif;
             class="d-flex flex-column flex-lg-row align-items-center mb-5 animate__animated"
             data-animate="slideInUp"
           >
-            <h2 class="me-5">Our Location</h2>
+            <h2 class="me-5">Our Locations</h2>
             <h3 class="font-extralight text-primary ps-lg-5 border-lg-left">
             Serving Los Angeles, Orange County, And San Diego
             </h3>
@@ -482,6 +482,7 @@ endif;
             <img src="<?php bloginfo('template_directory')?>/img/location/location-2a.jpg" alt="Location" />
             <img src="<?php bloginfo('template_directory')?>/img/location/location-3a.jpg" alt="Location" />
             <img src="<?php bloginfo('template_directory')?>/img/location/location-4a.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-1.jpg" alt="Location" />
             <img src="<?php bloginfo('template_directory')?>/img/location/location-2.jpg" alt="Location" />
             <img src="<?php bloginfo('template_directory')?>/img/location/location-3.jpg" alt="Location" />
           </div>

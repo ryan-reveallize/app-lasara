@@ -69,12 +69,16 @@
       >
         <div class="container py-lg-5">
           <div
-            class="d-flex flex-column flex-lg-row justify-content-lg-between mb-5"
+            class="d-flex flex-column flex-lg-row mb-5"
           >
-            <h2 class="me-5">Testimonials</h2>
-            <h3 class="font-extralight text-primary">
-              We’ve Changed The Lives Of Countless Men We Can Change Yours Too
-            </h3>
+            <div class="col-auto">
+              <h2 class="me-5">Testimonials</h2>
+            </div>
+            <div class="col-lg-8 ps-lg-5 border-lg-left">
+              <h3 class="font-extralight text-primary w-75">
+                We’ve Changed The Lives Of Countless Men We Can Change Yours Too
+              </h3>
+            </div>
           </div>
           <div class="testimonial_slick">
 
@@ -136,10 +140,10 @@ endif;
           <div
             class="d-flex flex-column flex-lg-row align-items-center mb-5 animate__animated"
             data-animate="slideInUp"
-          >
-            <h2 class="me-5">Our Location</h2>
-            <h3 class="font-extralight text-primary">
-              Choose Your Preferred Location
+          >            
+            <h2 class="me-5">Our Locations</h2>
+            <h3 class="font-extralight text-primary ps-lg-5 border-lg-left">
+            Serving Los Angeles, Orange County, And San Diego
             </h3>
           </div>
           <div
@@ -199,9 +203,10 @@ endif;
             </div>
           </div>
           <div class="location_slick">
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-1.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-2.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-3.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-1a.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-2a.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-3a.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-4a.jpg" alt="Location" />
             <img src="<?php bloginfo('template_directory')?>/img/location/location-1.jpg" alt="Location" />
             <img src="<?php bloginfo('template_directory')?>/img/location/location-2.jpg" alt="Location" />
             <img src="<?php bloginfo('template_directory')?>/img/location/location-3.jpg" alt="Location" />

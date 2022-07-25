@@ -101,7 +101,7 @@
                     </h5>
                     <ul class="sub-menu-list">
                       <li class="menu-item">
-                        <a href="<?php echo get_site_url() ?>/pt141-sexual-health-and-arousal"
+                        <a href="<?php echo get_site_url() ?>/mens-sexual-health"
                           >Mens Sexual heath</a
                         >
                       </li>
@@ -142,11 +142,6 @@
                       Hormones, Peptides, & NAD+
                     </h5>
                     <ul class="sub-menu-list">
-                      <li class="menu-item">
-                        <a href="<?php echo get_site_url() ?>/testosterone-hormone-replace-therapy"
-                          >Testosterone Hormone Replace Therapy</a
-                        >
-                      </li>
                       <li class="menu-item">
                         <a href="<?php echo get_site_url() ?>/testosterone-hormone-replace-therapy"
                           >Testosterone Replacement Therapy</a
