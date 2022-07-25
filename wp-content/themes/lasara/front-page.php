@@ -1,5 +1,5 @@
 <?php get_header(); 
-
+global $services;
 ?>
     <div class="main-container mt-4r">
       <section class="hero-section bg-grad-2">
@@ -9,6 +9,7 @@
             class="carousel slide carousel-fade"
             data-bs-ride="carousel"
           >
+		<?php /*?>
             <div class="carousel-indicators">
               <button
                 type="button"
@@ -31,13 +32,14 @@
                 aria-label="Slide 3"
               ></button>
             </div>
+		<?php */?>		
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row align-items-end align-items-lg-center pt-lg-5">
-                  <div class="col-md-6 py-5 ps-sm-4 mb-5">
-                    <h1 class="text-white font-black">LaSara Medical Group</h1>
+                  <div class="col-md-6 py-5 ps-sm-4 pe-lg-5 mb-5">
+                    <h1 class="text-white display-4 font-black"><span class="d-lg-block">LaSara</span> Medical Group</h1>
                     <p
-                      class="hero-sub font-light text-white mt-4 mb-5 line-height-lg"
+                      class="hero-sub font-light text-white mt-4 mb-5 line-height-lg text-justify"
                     >
                       We help you regenerate & optimize your sexual and physical
                       health Offices in Los Angeles, Orange County, and San
@@ -61,6 +63,7 @@
                   </div>
                 </div>
               </div>
+			<?php /*?>
               <div class="carousel-item">
                 <div class="row align-items-end align-items-lg-center pt-lg-5">
                   <div class="col-md-6 py-5 ps-sm-4 mb-5">
@@ -117,10 +120,12 @@
                   </div>
                 </div>
               </div>
+			<?php */?>
             </div>
           </div>
         </div>
 
+		<?php /*?>
         <button
           class="carousel-control-prev"
           type="button"
@@ -139,154 +144,23 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+		<?php */?>
       </section>
       <section class="home-service">
         <div class="container-fluid px-xl-5">
-        <div class="service-tile-container">
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/erectile-dysfunction-shockwave-therapy">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/erectile-dysfunction.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Erectile Dysfunction</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/peyronies-disease-or-penile-injury-shockwave-therapy">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/peyronies.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Peyronies Disease</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/penile-sensitivity-regeneration">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/penile-sensitivity.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Lack Of Penile Sensitivity</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/tennis-and-golfers-elbow">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/tennis-elbow.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Tennis Elbow </span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/plantar-fasciitis-heel-spurs">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/plantar-fasciitis.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Plantar Fasciitis</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/scar-reduction-face-body">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/scar-tissue.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Scar Tissue</span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/painful-shoulder-tendinopathy">
-                <span class="service-img me-1 me-md-3 service-img-png">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/tendonopathy.png"
-                    alt="Service Icon"
-                    class="service-img-png-og"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/tendonopathy-white.png"
-                    alt="Service Icon"
-                    class="service-img-png-white"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Tendonopathy</span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="#">
-                <span class="service-img me-1 me-md-3 service-img-png">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/neuropathy.png"
-                    alt="Service Icon"
-                    class="service-img-png-og"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/neuropathy-white.png"
-                    alt="Service Icon"
-                    class="service-img-png-white"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Neuropathy</span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/facial-skin-tightening-rejuvenation">
-                <span class="service-img me-1 me-md-3 service-img-png">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/skin-tightening-wrinkles.png"
-                    alt="Service Icon"
-                    class="service-img-png-og"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/skin-tightening-wrinkles-white.png"
-                    alt="Service Icon"
-                    class="service-img-png-white"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Skin Tightening Wrinkles</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/muscle-pain-tear">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/pain-management.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Pain Management</span>
-              </a>
-            </div>
-          </div>
+          <?php $services = [
+            'Erectile Dysfunction',
+            'Testosterone Replacement Therapy',
+            'Performance Peptides & Nad+',
+            'Orthopedics & Pain Management',
+            'Aesthetics'
+          ];?>
+          <?php get_template_part( 'template-parts/service-tile' );?>
         </div>
       </section>
       <section class="our-practice mt-5 py-5">
         <div class="container">
-          <div class="row">
+          <div class="row align-items-center">
             <div
               class="col-lg-6 mb-4 mb-lg-0 animate__animated"
               data-animate="slideInUp"
@@ -302,8 +176,7 @@
                     </div>
                     <div class="col-6">
                       <span class="font-extralight text-white"
-                        >Erectile Dysfunction Health Clinic located in Orange
-                        County, Los Angeles, & San Diego, CA</span
+                        >Erectile Dysfunction Health Clinic located in Orange County, Los Angeles, & San Diego, CA</span
                       >
                     </div>
                   </div>
@@ -314,26 +187,15 @@
               class="col-lg-6 ps-lg-5 animate__animated"
               data-animate="slideInUp"
             >
-              <h2>About Our Practice</h2>
+              <h2 class="mb-4">About Our Practice</h2>
               <h5 class="font-extralight text-secondary mt-3 mb-4">
-                LaSara Medical Group specializes in helping men who suffer from
-                erectile dysfunction (ED).
+                LaSara Medical Group is committed to helping our patients regenerate and optimize their health with innovative technology and products that deliver tangible outcomes for our patients.
               </h5>
               <p>
-                We offer our patients the latest in ED treatment, known as low
-                intensity focused shockwave therapy. As pioneers of this
-                treatment, we’ve seen unimaginable results and have treated more
-                men than any clinic in our region.
+              We specialize in Focused Shockwave Therapy, a revolutionary, non-invasive, and non-surgical solution to treat the root cause of dysfunctions, pain, and signs of aging.
               </p>
               <p class="m-0">
-                Focused shockwave therapy is the only clinically studied medical
-                treatment that is known to reverse ED for the long-term. The
-                foremost advanced medical communities around the world consider
-                it to be the potential medical answer of rehabilitating or even
-                curing ED. For over 10 years, successful use throughout Europe,
-                Canada, Asia, and Australia, as well as numerous studies have
-                proven the efficacy and long-term benefits of focused shockwave
-                therapy.
+                Regenerative medicine works to heal and grow human cells, tissues, and organs to restore normal function. Our treatments are risk free and proven with more than a decade of research.
               </p>
               <a href="<?php echo get_site_url() ?>/about" class="btn btn-outline-secondary mt-5">Read More</a>
             </div>
@@ -348,16 +210,7 @@
             </div>
             <div class="col-lg-8 col-md-9">
               <p class="m-0">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores
-                et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+              LaSara Medical Group specializes in helping men who suffer from erectile dysfunction and Peyronie’s Disease. We offer our patients the latest for sexual dysfunction treatments, known as low intensity focused shockwave therapy. As pioneers of this treatment since 2017, we’ve seen unimaginable results and have completed more than 11,000 treatments since our humble beginning. We know what works and more importantly, what doesn’t work. Our treatment protocol has been tested and proven to restore men back to experiencing full and natural erections.
               </p>
             </div>
           </div>
@@ -374,17 +227,15 @@
                 class="img-caption bg-white py-4 px-5 animate__animated"
                 data-animate="slideInLeft"
               >
-                <h2 class="mb-3">Shockwave</h2>
+                <h2 class="mb-3">Regenerative Treatments</h2>
                 <ul class="list-check-grad mb-4">
-                  <li class="mb-2">Erectile Dysfunction Shockwave Therapy</li>
-                  <li class="mb-2">
-                    Peyronie’s Disease or Penile Injury Shockwave Therapy
-                  </li>
-                  <li class="mb-2">Peptides & Pharmaceuticals</li>
-                  <li class="mb-2">Penile Injection Therapy</li>
-                  <li class="mb-2">Penile Sensitivity Regeneration</li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/erectile-dysfunction-shockwave-therapy">Erectile Dysfunction Shockwave Therapy</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/peyronies-disease-or-penile-injury-shockwave-therapy">Peyronie’s Disease or Penile Injury Shockwave Therapy</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/peptide-therapy">Peptides & Pharmaceuticals</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/penile-injection-therapy">Penile Injection Therapy</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/penile-sensitivity-regeneration">Penile Sensitivity Regeneration</a></li>
                 </ul>
-                <a href="#" class="btn btn-lg btn-grad">Learn More</a>
+                <a href="<?php echo get_site_url() ?>/about" class="btn btn-lg btn-grad">Learn More</a>
               </div>
             </div>
             <div
@@ -395,14 +246,13 @@
                 class="img-caption bg-white py-4 px-5 animate__animated"
                 data-animate="slideInRight"
               >
-                <h2 class="mb-3">Shockwave</h2>
+                <h2 class="mb-3">Traditional Treatments</h2>
                 <ul class="list-check-grad mb-4">
-                  <li class="mb-2">
-                    Pelvic Pain Syndrome and Chronic Prostatitis
-                  </li>
-                  <li class="mb-2">Testosterone Hormone Replace Therapy</li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/penile-injection-therapy">Penile Injection Therapy</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/pharmaceuticals">Pharmaceutical Treatments</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/peptide-therapy">Peptide Therapies</a></li>
                 </ul>
-                <a href="#" class="btn btn-lg btn-grad">Learn More</a>
+                <a href="<?php echo get_site_url() ?>/about" class="btn btn-lg btn-grad">Learn More</a>
               </div>
             </div>
           </div>
@@ -416,16 +266,12 @@
           <div class="row justify-content-end py-lg-5">
             <div class="col-md-6 col-sm-8 text-md-start text-end pe-md-5">
               <h2 class="text-white font-black mb-4">
-                Hormones Performance with Peptides & NAD+
+                Hormones, Peptides & NAD+
               </h2>
               <p class="text-white mb-5">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet
+                At LaSara Medical Group, we offer a variety of hormone treatments, peptide protocols, and NAD+ products that are designed to help our patients achieve their health and life goals. By optimizing your body’s inputs with medically advanced treatments, you provide your body and mind the tools it needs to perform at your highest level physically and mentally.
               </p>
-              <a href="#" class="btn btn-lg btn-grad">Buy Now</a>
+              <a href="#" class="btn btn-lg btn-grad">Shop Now</a>
             </div>
           </div>
         </div>
@@ -454,12 +300,18 @@
                     />
                   </span>
                   <span class="h5 font-bold d-block service-title mb-4"
-                    >Aesthetic Treatments</span
+                    >Pain Management</span
                   >
                   <ul class="list-check-grad m-0">
-                    <li class="mb-2">Facial Collagen Production Stimulation</li>
-                    <li class="mb-2">Skin Tightening</li>
-                    <li class="mb-0">Scar and Pigmentation Treatment</li>
+                  
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/neuropathy">Neuropathy</a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/plantar-fasciitis-heel-spurs">Plantar Fasciitis & Heel Spurs </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/jumpers-knee-patellar-tendinitis">Jumper’s Knee & Patellar Tendinitis </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/painful-shoulder-tendinopathy">Painful Shoulder </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/tennis-and-golfers-elbow">Tennis And Golfer’s Elbow </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/muscle-pain-tear">Muscle Pain & Tear </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/hip-pain">Hip Pain </a></li>
+                    <li class="mb-0"><a href="#">Bone Fracture</a></li>
                   </ul>
                 </a>
               </div>
@@ -474,15 +326,12 @@
                     />
                   </span>
                   <span class="h5 font-bold d-block service-title mb-4"
-                    >Pain Management</span
+                    >Aesthetics</span
                   >
                   <ul class="list-check-grad m-0">
-                    <li class="mb-2">Plantar fasciitis & heel spurs</li>
-                    <li class="mb-2">Neuropathy</li>
-                    <li class="mb-2">Tendinopathy</li>
-                    <li class="mb-2">Tennis Elbow</li>
-                    <li class="mb-2">Post Surgical pain</li>
-                    <li class="mb-0">Sports related injuries</li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/facial-skin-tightening-rejuvenation">Facial Skin Tightening & Rejuvenation </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/scar-reduction-face-body">Scar reduction face & body </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/cellulite">Cellulite</a></li>
                   </ul>
                 </a>
               </div>
@@ -496,12 +345,16 @@
       >
         <div class="container py-lg-5">
           <div
-            class="d-flex flex-column flex-lg-row justify-content-lg-between mb-5"
+            class="d-flex flex-column flex-lg-row mb-5"
           >
-            <h2 class="me-5">Testimonials</h2>
-            <h3 class="font-extralight text-primary">
-              We’ve Changed The Lives Of Countless Men We Can Change Yours Too
-            </h3>
+            <div class="col-auto">
+              <h2 class="me-5">Testimonials</h2>
+            </div>
+            <div class="col-lg-8 ps-lg-5 border-lg-left">
+              <h3 class="font-extralight text-primary w-75">
+                We’ve Changed The Lives Of Countless Men We Can Change Yours Too
+              </h3>
+            </div>
           </div>
           <div class="testimonial_slick">
 
@@ -564,8 +417,8 @@ endif;
             data-animate="slideInUp"
           >
             <h2 class="me-5">Our Location</h2>
-            <h3 class="font-extralight text-primary">
-              Choose Your Preferred Location
+            <h3 class="font-extralight text-primary ps-lg-5 border-lg-left">
+            Serving Los Angeles, Orange County, And San Diego
             </h3>
           </div>
           <div
@@ -625,10 +478,10 @@ endif;
             </div>
           </div>
           <div class="location_slick">
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-1.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-2.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-3.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-1.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-1a.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-2a.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-3a.jpg" alt="Location" />
+            <img src="<?php bloginfo('template_directory')?>/img/location/location-4a.jpg" alt="Location" />
             <img src="<?php bloginfo('template_directory')?>/img/location/location-2.jpg" alt="Location" />
             <img src="<?php bloginfo('template_directory')?>/img/location/location-3.jpg" alt="Location" />
           </div>

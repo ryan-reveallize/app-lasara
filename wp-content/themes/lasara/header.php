@@ -95,79 +95,74 @@
               <i class="fa-solid fa-chevron-down"></i>
               <div class="menu-child mega-menu">
                 <div class="row">
-                  <div class="col-lg-8 col-md-6 d-flex">
-                    <div class="row w-100">
-                      <div class="col-lg-6">
-                        <h5 class="display-6 text-black mb-lg-4">
-                          Hormones, Peptides, & NAD+
-                        </h5>
-                        <ul class="sub-menu-list">
-                          <li class="menu-item">
-                            <a href="<?php echo get_site_url() ?>/pt141-sexual-health-and-arousal"
-                              >Testosterone Replacement Therapy</a
-                            >
-                          </li>
-                          <li class="menu-item">
-                            <a href="<?php echo get_site_url() ?>/peptide-therapy">Peptide Therapy</a>
-                          </li>
-                          <li class="menu-item">
-                            <a href="<?php echo get_site_url() ?>/nad">NAD+</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="col-lg-6 mm-border-l-1">
-                        <h5 class="display-6 text-black mb-lg-4">
-                          Mens Sexual Health
-                        </h5>
-                        <ul class="sub-menu-list">
-                          <li class="menu-item">
-                            <a href="<?php echo get_site_url() ?>/pt141-sexual-health-and-arousal"
-                              >Mens Sexual heath</a
-                            >
-                          </li>
-                          <li class="menu-item">
-                            <a href="<?php echo get_site_url() ?>/erectile-dysfunction-shockwave-therapy"
-                              >Erectile Dysfunction Shockwave Therapy</a
-                            >
-                          </li>
-                          <li class="menu-item">
-                            <a href="<?php echo get_site_url() ?>/peyronies-disease-or-penile-injury-shockwave-therapy"
-                              >Peyronie’s Disease or Penile Injury Shockwave
-                              Therapy</a
-                            >
-                          </li>
-                          <li class="menu-item">
-                            <a href="<?php echo get_site_url() ?>/penile-sensitivity-regeneration"
-                              >Penile Sensitivity Regeneration</a
-                            >
-                          </li>
-                          <li class="menu-item">
-                            <a href="<?php echo get_site_url() ?>/pelvic-pain-syndrome-and-chronic-prostatitis"
-                              >Pelvic Pain Syndrome and Chronic Prostatitis</a
-                            >
-                          </li>
-                          <li class="menu-item">
-                            <a href="<?php echo get_site_url() ?>/penile-injection-therapy"
-                              >Penile Injection Therapy</a
-                            >
-                          </li>
-                          <li class="menu-item">
-                            <a href="<?php echo get_site_url() ?>/testosterone-hormone-replace-therapy"
-                              >Testosterone Hormone Replace Therapy</a
-                            >
-                          </li>
-                          <li class="menu-item">
-                            <a href="<?php echo get_site_url() ?>/pharmaceuticals"
-                              >Peptides & Pharmaceuticals</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 mm-border-l-1">
+                  <div class="col-lg-3 col-md-6">
                     <h5 class="display-6 text-black mb-lg-4">
-                      Orthopedics & Aesthetics
+                      Men’s Sexual Health Treatments
+                    </h5>
+                    <ul class="sub-menu-list">
+                      <li class="menu-item">
+                        <a href="<?php echo get_site_url() ?>/pt141-sexual-health-and-arousal"
+                          >Mens Sexual heath</a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a href="<?php echo get_site_url() ?>/erectile-dysfunction-shockwave-therapy"
+                          >Erectile Dysfunction Shockwave Therapy</a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a href="<?php echo get_site_url() ?>/peyronies-disease-or-penile-injury-shockwave-therapy"
+                          >Peyronie’s Disease or Penile Injury Shockwave Therapy</a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a href="<?php echo get_site_url() ?>/penile-sensitivity-regeneration"
+                          >Penile Sensitivity Regeneration Shockwave Therapy</a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a href="<?php echo get_site_url() ?>/pelvic-pain-syndrome-and-chronic-prostatitis"
+                          >Pelvic Pain Syndrome and Chronic Prostatitis Shockwave Therapy</a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a href="<?php echo get_site_url() ?>/penile-injection-therapy"
+                          >Penile Injection Therapy</a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a href="<?php echo get_site_url() ?>/pharmaceuticals"
+                          >Pharmaceutical Treatments</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mm-border-l-1">
+                    <h5 class="display-6 text-black mb-lg-4">
+                      Hormones, Peptides, & NAD+
+                    </h5>
+                    <ul class="sub-menu-list">
+                      <li class="menu-item">
+                        <a href="<?php echo get_site_url() ?>/testosterone-hormone-replace-therapy"
+                          >Testosterone Hormone Replace Therapy</a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a href="<?php echo get_site_url() ?>/testosterone-hormone-replace-therapy"
+                          >Testosterone Replacement Therapy</a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a href="<?php echo get_site_url() ?>/peptide-therapy">Peptide Therapy</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="<?php echo get_site_url() ?>/nad">NAD+</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mm-border-l-1">
+                    <h5 class="display-6 text-black mb-lg-4">
+                      Orthopedics & Pain Management
                     </h5>
                     <ul class="sub-menu-list">
                       <li class="menu-item">
@@ -197,26 +192,23 @@
                         <a href="<?php echo get_site_url() ?>/muscle-pain-tear">Muscle pain & tear</a>
                       </li>
                       <li class="menu-item">
-                        <a href="#">Chronic Tendinopathy</a>
-                      </li>
-                      <li class="menu-item"><a href="#">Calcifications</a></li>
-                      <li class="menu-item">
                         <a href="<?php echo get_site_url() ?>/hip-pain">Hip Pain</a>
                       </li>
-                      <li class="menu-item">
-                        <a href="<?php echo get_site_url() ?>/jumpers-knee-patellar-tendinitis">Sports related injuries</a>
-                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mm-border-l-1">
+                    <h5 class="display-6 text-black mb-lg-4">
+                      Aesthetics
+                    </h5>
+                    <ul class="sub-menu-list">  
                       <li class="menu-item">
                         <a href="<?php echo get_site_url() ?>/facial-skin-tightening-rejuvenation"
-                          >Facial Collagen Production Stimulation</a
+                          >Facial Skin Tightening & Rejuvenation</a
                         >
                       </li>
                       <li class="menu-item">
-                        <a href="<?php echo get_site_url() ?>/facial-skin-tightening-rejuvenation">Skin Tightening</a>
-                      </li>
-                      <li class="menu-item">
                         <a href="<?php echo get_site_url() ?>/scar-reduction-face-body"
-                          >Scar and Pigmentation Treatment</a
+                          >Scar reduction face & body</a
                         >
                       </li>
                       <li class="menu-item">
@@ -227,22 +219,8 @@
                 </div>
               </div>
             </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#">Research</a>
-              <i class="fa-solid fa-chevron-down"></i>
-              <div class="menu-child small-menu">
-                <ul class="sub-menu-list">
-                  <li class="menu-item">
-                    <a href="<?php echo get_site_url() ?>/testosterone-hormone-replace-therapy"
-                      >Testosterone Replacement Therapy</a
-                    >
-                  </li>
-                  <li class="menu-item">
-                    <a href="<?php echo get_site_url() ?>/peptide-therapy">Peptide Therapy</a>
-                  </li>
-                  <li class="menu-item"><a href="<?php echo get_site_url() ?>/nad">NAD+</a></li>
-                </ul>
-              </div>
+            <li class="menu-item">
+              <a href="<?php echo get_site_url() ?>/research">Research</a>
             </li>
             <li class="menu-item">
               <a href="<?php echo get_site_url() ?>/contact">Contact</a>
