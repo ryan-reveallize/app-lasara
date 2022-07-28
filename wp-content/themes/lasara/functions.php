@@ -20,7 +20,7 @@ add_image_size('testimonials-img',80,80, true);
 add_image_size('blog-list',416,200, true);
 add_theme_support( 'post-thumbnails' );
 
-
+add_image_size('blog-inner',9999999,384, true);
 function add_custom_sizes() {
     add_image_size('page-banner',99999999,450,true);
 

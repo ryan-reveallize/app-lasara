@@ -31,20 +31,11 @@
   border: none;
   position: relative;
 }
-.service-img{
-  max-width: 3rem;
-  min-width: 3rem;
-}
+
 .service-tile .service-img-svg{
   display: none;
 }
 .service-tile:hover .service-img-svg,
 .service-tile:focus .service-img-svg{
   display: block;
-}
-.border-lg-right{
-  border-right: 1px solid #72BFE6;
-}
-.border-lg-left{
-  border-left: 1px solid #72BFE6;
 }

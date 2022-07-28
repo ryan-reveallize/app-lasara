@@ -1,6 +1,4 @@
 <?php
-//Template Name: blogs
-
 get_header();
 
 /* Truncate Words instead of letters */

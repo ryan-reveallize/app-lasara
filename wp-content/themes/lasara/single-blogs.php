@@ -11,7 +11,7 @@
 
 <div class="main-container mt-4r">
         <section class="bg-img bg-overlay bg-top bg-overlay-left-full py-5 bg-top bg-overlay-left-full"
-            data-background-image="../../dist/img/blog/1.jpg">
+            data-background-image="<?php the_post_thumbnail_url(); ?>">
             <div class="container-fluid py-5 my-xl-5 z-1 cross-vertical-right">
                 <div class="row py-lg-5">
                     <div class="col-xl-4 col-md-6 offset-md-1">

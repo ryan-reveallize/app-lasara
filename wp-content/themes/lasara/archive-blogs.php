@@ -14,8 +14,9 @@ function trunc($phrase, $max_words) {
 
 $pargs = array(
  's' => isset($_GET['search']) ? $_GET['search'] : '',
- 'posts_per_page' => '11',
+ 'posts_per_page' => '-1',
  'post_type' => 'post',
+ 'orderby' => 'menu_order',
  'tax_query' => isset($_GET['field']) ? array(
    array(
      'taxonomy' => 'category',
@@ -32,7 +33,7 @@ $query = new WP_Query($pargs);
 <div class="main-container mt-4r">
       <section
         class="bg-img bg-overlay bg-top bg-overlay-left-full py-5 bg-top bg-overlay-left-full"
-        data-background-image="../dist/img/old-man-with-cane.jpg"
+        data-background-image="<?php bloginfo('template_directory') ?>/img/old-man-with-cane.jpg"
       >
         <div class="container-fluid py-5 my-xl-5 z-1 cross-vertical-right">
           <div class="row py-lg-5">

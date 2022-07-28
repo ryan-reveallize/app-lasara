@@ -236,7 +236,7 @@ global $services;
                   <li class="mb-2"><a href="<?php echo get_site_url() ?>/penile-sensitivity-regeneration">Penile Sensitivity Regeneration Shockwave Therapy</a></li>
                   <li class="mb-2"><a href="<?php echo get_site_url() ?>/pelvic-pain-syndrome-and-chronic-prostatitis">Pelvic Pain Syndrome and Chronic Prostatitis Shockwave Therapy</a></li>
                 </ul>
-                <a href="<?php echo get_site_url() ?>/why-lasara-vs-the-competition" class="btn btn-lg btn-grad">Why LaSara?</a>
+                <a href="<?php echo get_site_url() ?>/about/why-lasara-vs-the-competition" class="btn btn-lg btn-grad">Why LaSara?</a>
               </div>
             </div>
             <div
@@ -253,7 +253,7 @@ global $services;
                   <li class="mb-2"><a href="<?php echo get_site_url() ?>/pharmaceuticals">Pharmaceutical Treatments</a></li>
                   <li class="mb-2"><a href="<?php echo get_site_url() ?>/peptide-therapy">Peptide Therapies</a></li>
                 </ul>
-                <a href="<?php echo get_site_url() ?>/why-lasara-vs-the-competition" class="btn btn-lg btn-grad">Why LaSara?</a>
+                <a href="<?php echo get_site_url() ?>/about/why-lasara-vs-the-competition" class="btn btn-lg btn-grad">Why LaSara?</a>
               </div>
             </div>
           </div>

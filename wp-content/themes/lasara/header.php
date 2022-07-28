@@ -4,15 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      LaSara Medical Group | LaSara Medical Group | Los Angeles, Orange County,
-      San Diego, CA
+  <title>
+      LaSara Medical Group<?PHP ECHO WP_TITLE();?>
     </title>
-    <meta
-      name="description"
-      content="Trusted Erectile Dysfunction Health Clinic serving Orange County, CA &amp; Los Angeles, CA. Visit our website to book an appointment online: LaSara Medical Group"
-    />
-
+ 
+   
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
@@ -85,7 +81,7 @@
                   <li class="menu-item">
                     <a href="<?php echo get_site_url() ?>/in-the-media">In the Media</a>
                   </li>
-                  <li class="menu-item"><a href="<?php echo get_site_url() ?>/blogs">Blogs</a></li>
+                  <li class="menu-item"><a href="<?php echo get_site_url() ?>/blog">Blogs</a></li>
              
                 </ul>
               </div>
@@ -131,7 +127,7 @@
                         >
                       </li>
                       <li class="menu-item">
-                        <a href="<?php echo get_site_url() ?>/pharmaceuticals"
+                        <a href="<?php echo get_site_url() ?>/#"
                           >Pharmaceutical Treatments</a
                         >
                       </li>
