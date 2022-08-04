@@ -296,13 +296,13 @@
                 reduce pain and increase mobility. If you are interested in
                 learning more about our tennis and golfer's elbow treatment,
                 <a
-                  href="<?php echo get_site_url() ?>/contact"
+                  href="<?php echo get_site_url() ?>/contactus"
                   class="text-white text-underline font-bold"
                   >schedule a consultation</a
                 >
                 with us today!
               </p>
-              <a href="<?php echo get_site_url() ?>/contact" class="btn btn-grad"
+              <a href="<?php echo get_site_url() ?>/contactus" class="btn btn-grad"
                 >SCHEDULE A CONVERSATION</a
               >
             </div>

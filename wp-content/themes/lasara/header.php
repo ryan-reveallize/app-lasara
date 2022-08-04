@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>
-      LaSara Medical Group<?PHP ECHO WP_TITLE();?>
+  <?PHP ECHO WP_TITLE();?>
     </title>
  
    
@@ -40,7 +40,7 @@
             class="img-fluid"
           />
         </a>
-        <button
+        <!-- <button
           class="navbar-toggler order-3"
           type="button"
           data-bs-toggle="collapse"
@@ -48,9 +48,9 @@
           aria-controls="l-navbar"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        ></button>
-        <div class="d-none d-sm-flex order-2 order-xl-4">
-          <a href="<?php echo get_site_url() ?>/contact" class="btn btn-primary mx-1">CALL US</a>
+        ></button> -->
+        <div class="d-none d-sm-flex order-2 order-xl-4 px-5 px-xl-0">
+          <a href="<?php echo get_site_url() ?>/contactus" class="btn btn-primary mx-1">CALL US</a>
           <a
             href="https://calendly.com/marklasara/freeconsultation?month=2022-06"
             target="_blank"
@@ -58,7 +58,17 @@
             >SCHEDULE FREE CONSULTATION</a
           >
         </div>
-        <div
+        
+        
+            <div
+          class=" justify-content-lg-center order-4 order-xl-3"
+          id="l-navbar"
+        >
+<?php echo clm_main_nav(); ?>
+         
+        </div>
+        
+      <!--   <div
           class="collapse navbar-collapse justify-content-lg-center order-4 order-xl-3"
           id="l-navbar"
         >
@@ -73,15 +83,14 @@
               <i class="fa-solid fa-chevron-down"></i>
               <div class="menu-child small-menu">
                 <ul class="sub-menu-list">
-                <li class="menu-item"><a href="<?php echo get_site_url() ?>/our-mission">Our Mission</a></li>
-                <li class="menu-item"><a href="<?php echo get_site_url() ?>/our-team">Our Team</a></li>
-                <li class="menu-item">
-                    <a href="<?php echo get_site_url() ?>/testimonials">Testimonials</a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="<?php echo get_site_url() ?>/in-the-media">In the Media</a>
-                  </li>
-                  <li class="menu-item"><a href="<?php echo get_site_url() ?>/blog">Blogs</a></li>
+                <li class="menu-item"><a href="<?php echo get_site_url() ?>/about/our-mission">Our Mission</a></li>
+                <li class="menu-item"><a href="<?php echo get_site_url() ?>/about/what-causes-erectile-dysfunction">What Causes Erectile Dysfunction?</a></li>
+                <li class="menu-item"><a href="<?php echo get_site_url() ?>/about/testimonials">Testimonials</a></li>
+                <li class="menu-item"><a href="<?php echo get_site_url() ?>/about/our-team">Our Team</a></li>
+                <li class="menu-item"><a href="<?php echo get_site_url() ?>/about/why-lasara-vs-the-competition">Why LaSara vs. the Competition</a></li>
+                <li class="menu-item"><a href="<?php echo get_site_url() ?>/about/in-the-media">In the Media</a></li>
+                <li class="menu-item"><a href="<?php echo get_site_url() ?>/about/q-a">Q & A</a></li>
+                <li class="menu-item"><a href="<?php echo get_site_url() ?>/blog">Blogs</a></li>
              
                 </ul>
               </div>
@@ -210,14 +219,21 @@
                 </div>
               </div>
             </li>
-            <li class="menu-item">
+            <li class="menu-item menu-item-has-children">
+              <i class="fa-solid fa-chevron-down"></i>
               <a href="<?php echo get_site_url() ?>/research">Research</a>
+              <div class="menu-child small-menu">
+                <ul class="sub-menu-list">
+                <li class="menu-item"><a href="<?php echo get_site_url() ?>/research/not-all-shockwaves-are-the-same">Not All Shockwaves are the Same</a></li>
+             
+                </ul>
+              </div>
             </li>
             <li class="menu-item">
-              <a href="<?php echo get_site_url() ?>/contact">Contact</a>
+              <a href="<?php echo get_site_url() ?>/contactus">Contact</a>
             </li>
             <li class="btn btn-primary ms-2 ms-xxl-3 menu-item d-sm-none">
-              <a href="<?php echo get_site_url() ?>/contact">CALL US</a>
+              <a href="<?php echo get_site_url() ?>/contactus">CALL US</a>
             </li>
             <li class="btn btn-outline-secondary ms-2 menu-item d-sm-none">
               <a
@@ -227,6 +243,6 @@
               >
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </nav>

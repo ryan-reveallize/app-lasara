@@ -8,14 +8,14 @@
           <div class="row py-lg-5">
             <div class="col-xl-4 col-md-6 offset-md-1">
               <h1 class="display-4 text-white mb-5">
-                Amplify Your Sexual Health
+              Support, Enhance, Power Up
               </h1>
             </div>
             <div class="w-100"></div>
             <div class="col-xxl-3 col-xl-5 col-md-6 offset-md-1">
               <h3 class="font-light text-white line-height-lg">
-                PT-141 Peptide for Sexual Health and Arousal in Los Angeles,
-                Orange County, and San Diego, CA
+              NAD+ in Los Angeles, Orange County, and San Diego, CA
+
               </h3>
             </div>
           </div>
@@ -33,15 +33,7 @@
                 class="mt-5 text-center animate__animated"
                 data-animate="slideInUp"
               >
-                As we go through the natural stages of life, many aspects of our
-                health tend to deteriorate or require extra support. Sexual
-                wellness is one of the areas that can begin to show signs of
-                slowing down with age. You can support your sexual health with
-                safe, simple, effective peptide treatments thanks to
-                cutting-edge medical developments. At LaSara Medical Group, we
-                offer a variety of peptide protocols designed to help our
-                patients achieve their health goals and maximize sexual
-                performance in the most effective and natural way.
+              If you'd like to wake up less groggy, have more sustainable energy, and have better focus, NAD+ could be the solution that helps to take you to the next level of your health journey. NAD+ is a key component of creating energy in the body and regulating critical cellular processes. LaSara Medical Group in Los Angeles, Orange County, and San Diego, CA, offers easily administered NAD+ treatments to help improve energy levels, support mental clarity, and slow down the effects of aging. 
               </p>
             </div>
           </div>
@@ -61,31 +53,21 @@
                   class="arrow-grad-right"
                 />
                 <h2 class="display-4 p-4 p-xxl-5">
-                  Sexual Health and Arousal Treatments at LaSara Medical Group
+                 
+What is NAD+?
+
                 </h2>
               </div>
             </div>
             <div class="col-xl-6 col-lg-6 ps-lg-5 pt-lg-5">
               <p>
-                Peptide protocols gained recent popularity due to their ability
-                to enhance specific areas of our health with laser-like
-                precision. Peptides are short amino acids that act as building
-                blocks for proteins. Peptides naturally occur in the body and
-                help the body and the brain perform at their highest potential.
-                Supplying the body with additional high-quality peptides can
-                help improve multiple functions and provide long-lasting
-                results.
+              NAD+, or nicotinamide adenine dinucleotide, is a coenzyme that can be found in all cells in the body. NAD+ is involved in hundreds of metabolic processes in the body and helps supply energy and regulate cellular functions. Unfortunately, the levels of NAD+ normally diminish with age and leave the body exposed to the negative effects of aging like slowed down metabolism, lack of energy, and less elastic skin. 
               </p>
-              <p class="m-0">
-                For our sexual health and arousal peptide protocol, LaSara
-                Medical Group provides the PT-141 peptide protocol. PT-141 is a
-                unique peptide that stimulates the Melanocortin 4 Receptor,
-                known to produce physiological responses in the body, such as
-                sexual arousal in the central nervous system and influence
-                sexual behavior. PT-141 works via a different mechanism than
-                drugs like Viagra and helps treat sexual arousal disorders in
-                both men and women.
-              </p>
+              <p>NAD+, or nicotinamide adenine dinucleotide, is a coenzyme that can be found in all cells in the body. NAD+ is involved in hundreds of metabolic processes in the body and helps supply energy and regulate cellular functions. Unfortunately, the levels of NAD+ normally diminish with age and leave the body exposed to the negative effects of aging like slowed down metabolism, lack of energy, and less elastic skin. 
+
+At LaSara Medical Group, our staff is excited to offer you a way to replenish your NAD+ levels in three simple ways: nasal sprays, ionic patches for dermal application, and subcutaneous injections. Your LaSara Medical provider will discuss your goals and specific needs with you and recommend the best mode of delivery.
+</p>
+             
             </div>
           </div>
         </div>
@@ -95,26 +77,24 @@
           <div class="row align-items-center">
             <div class="col-xl-4 col-md-5 offset-md-2 pe-md-5">
               <h2 class="mb-4">
-                Benefits of PT-141 Sexual Health and Arousal Protocol
+              Benefits of NAD+
               </h2>
 
               <p class="mb-4">
-                When administered correctly, peptides can help improve a
-                person’s sexual health and arousal with little to no risk.
-                Benefits of the sexual health and arousal peptide protocol at
-                LaSara Medical Group include:
+        
+Replenish your NAD+ levels and get back to doing more of what you love with LaSara Medical Group's easy and effective NAD+ protocols. Benefits of NAD+ include:
+
               </p>
 
               <ul class="list-check-grad mb-5 mb-md-0">
-                <li>Increased libido</li>
-                <li>Improved sexual performance</li>
-                <li>Increased sexual desire</li>
-                <li>Stronger erections for men</li>
-                <li>Greater arousal (up to 72 hours)</li>
-                <li>Enhanced energy</li>
-                <li>Fast, easy healing</li>
-                <li>Greater sexual fulfillment</li>
-                <li>Enhanced relationships</li>
+                <li>Improves energy levels</li>
+                <li>Helps reduce cravings</li>
+                <li>Supports mental clarity</li>
+                <li>Improves mood</li>
+                <li>Supports DNA health and repair</li>
+                <li>Helps turn off cells that accelerate degenerative aging</li>
+                <li>Improves post-work recovery
+</li>
               </ul>
             </div>
             <div class="col-md-5 ps-lg-5">
@@ -165,7 +145,8 @@
       <section class="py-5">
         <div class="container cross-vertical-left">
           <h2 class="mb-5 text-center">
-            FAQs About Sexual Health and Arousal Protocol
+          FAQs About NAD+
+
           </h2>
           <div class="row justify-content-center cross-horizontal-right">
             <div class="col-xxl-10 col-lg-10 z-1 py-3">
@@ -187,7 +168,8 @@
                         aria-expanded="false"
                         aria-controls="panelsStayOpen-collapse1"
                       >
-                        What Makes Peptide Protocols so Popular?
+                      Does NAD+ Naturally Occur in the Body?
+
                       </button>
                     </h2>
                     <div
@@ -196,13 +178,8 @@
                       aria-labelledby="panelsStayOpen-heading1"
                     >
                       <div class="accordion-body">
-                        LaSara Medical’s experienced staff will be expertly
-                        monitoring and redirecting the pressure pulses, ensuring
-                        your maximum comfort. As a result, you can expect
-                        minimum discomfort in body areas like the buttocks and
-                        thighs. You may feel intense pressure, but the treatment
-                        should be free of pain and does not require anesthetics
-                        or pain medications.
+                      Yes! When our cells break down carbohydrates and fats to use them for energy, that energy is stored by creating ATP and NADH. To produce energy, your body's electrons go through the mitochondrial electron chain. NADH is the most significant carrier of these electrons, and once it gives up the electrons, NADH becomes NAD+. You will tend to feel more vital and healthy when your body has the proper ingredients to use these electrons. Without that, you are likely to feel sicker and weaker. 
+
                       </div>
                     </div>
                   </div>
@@ -219,7 +196,7 @@
                         aria-expanded="false"
                         aria-controls="panelsStayOpen-collapse2"
                       >
-                        How Are Peptides Administered?
+                      Who is a Good Candidate for NAD+?
                       </button>
                     </h2>
                     <div
@@ -228,13 +205,7 @@
                       aria-labelledby="panelsStayOpen-heading2"
                     >
                       <div class="accordion-body">
-                        Most men have trouble with erections at some point in
-                        their lives. But how do you know when you’re truly
-                        experiencing erectile dysfunction? The basic definition
-                        of erectile dysfunction is the inability to achieve or
-                        maintain an erection firm enough for sex. If this occurs
-                        frequently, it can put stress on you, your relationship,
-                        or your self-confidence, so it’s important to seek help.
+                      Both men and women who suffer from reduced energy levels, feel sluggish and fatigued, or experience mental fog can benefit from NAD+ use. Supplying your system with additional NAD+ can help relieve these unwanted symptoms and provide additional benefits. Some early research also suggests that NAD+ may help protect against the development of neurodegenerative conditions and can help in addiction recovery. 
                       </div>
                     </div>
                   </div>
@@ -251,8 +222,7 @@
                         aria-expanded="false"
                         aria-controls="panelsStayOpen-collapse3"
                       >
-                        Are There Any Side Effects of Sexual Health and Arousal
-                        Peptide Protocol?
+                      Are There Any Side Effects of the Flow Protocol?
                       </button>
                     </h2>
                     <div
@@ -261,13 +231,9 @@
                       aria-labelledby="panelsStayOpen-heading3"
                     >
                       <div class="accordion-body">
-                        Most men have trouble with erections at some point in
-                        their lives. But how do you know when you’re truly
-                        experiencing erectile dysfunction? The basic definition
-                        of erectile dysfunction is the inability to achieve or
-                        maintain an erection firm enough for sex. If this occurs
-                        frequently, it can put stress on you, your relationship,
-                        or your self-confidence, so it’s important to seek help.
+                      Side effects from NAD+ are usually mild, with the benefits greatly outweighing the risks. However, you could experience short-lasting and mild side effects like nausea, bloating, and redness at the injection site. If you have any questions or concerns about handling NAD+ therapy, please don't hesitate to schedule a consultation appointment with one of our offices!
+
+
                       </div>
                     </div>
                   </div>
@@ -286,168 +252,35 @@
           <div class="row justify-content-end py-lg-5">
             <div class="col-md-6 col-sm-8 text-md-start text-end">
               <h2 class="text-white font-black mb-4">
-                Get Back to Feeling Like Yourself
+              Get Back to Feeling Like Yourself
+
               </h2>
 
               <p class="text-white mb-5">
-                At LaSara Medical Group, we understand the unique challenges
-                faced by men and women. With offices in Los Angeles, Orange
-                County, and San Diego, our highest priority is to help you get
-                back to feeling more like yourself. Peptide protocols at LaSara
-                Medical Group provide a safe and effective way to improve sexual
-                desire and arousal. If you’re ready to feel invigorated and
-                fully engaged in your sexual life, schedule a consultation with
-                us today!
+              At LaSara Medical Group, we understand the unique challenges faced by men and women. With offices in Los Angeles, Orange County, and San Diego, our highest priority is to help you get back to feeling more like yourself and provide you with the energy you need to tackle the day. NAD+ therapy at LaSara Medical Group provides a safe and effective way to support and improve your health. If you're ready to find out more about our cutting-edge NAD+ protocols, schedule a consultation with us today! 
+
               </p>
-              <a href="#" class="btn btn-grad">SCHEDULE A CONVERSATION</a>
+              <a href="<?php echo get_site_url() ?>/contactus" class="btn btn-grad">SCHEDULE A CONVERSATION</a>
             </div>
           </div>
         </div>
       </section>
-      <section class="py-5">
+      <section class="py-5 px-xl-5">
         <h2 class="mb-5 text-center">What We Offer</h2>
         <div class="container-fluid px-xl-5">
-           <div class="service-tile-container">
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/erectile-dysfunction-shockwave-therapy">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/erectile-dysfunction.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Erectile Dysfunction</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/peyronies-disease-or-penile-injury-shockwave-therapy">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/peyronies.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Peyronies Disease</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/penile-sensitivity-regeneration">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/penile-sensitivity.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Lack Of Penile Sensitivity</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/tennis-and-golfers-elbow">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/tennis-elbow.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Tennis Elbow </span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/plantar-fasciitis-heel-spurs">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/plantar-fasciitis.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Plantar Fasciitis</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/scar-reduction-face-body">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/scar-tissue.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Scar Tissue</span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/painful-shoulder-tendinopathy">
-                <span class="service-img me-1 me-md-3 service-img-png">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/tendonopathy.png"
-                    alt="Service Icon"
-                    class="service-img-png-og"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/tendonopathy-white.png"
-                    alt="Service Icon"
-                    class="service-img-png-white"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Tendonopathy</span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="#">
-                <span class="service-img me-1 me-md-3 service-img-png">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/neuropathy.png"
-                    alt="Service Icon"
-                    class="service-img-png-og"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/neuropathy-white.png"
-                    alt="Service Icon"
-                    class="service-img-png-white"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Neuropathy</span>
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/facial-skin-tightening-rejuvenation">
-                <span class="service-img me-1 me-md-3 service-img-png">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/skin-tightening-wrinkles.png"
-                    alt="Service Icon"
-                    class="service-img-png-og"
-                  />
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/skin-tightening-wrinkles-white.png"
-                    alt="Service Icon"
-                    class="service-img-png-white"
-                  />
-                </span>
-                <span class="h5 font-bold service-title"
-                  >Skin Tightening Wrinkles</span
-                >
-              </a>
-            </div>
-            <div class="service-tile p-2 p-lg-4">
-              <a href="<?php echo get_site_url() ?>/muscle-pain-tear">
-                <span class="service-img me-1 me-md-3 service-img-svg">
-                  <img
-                    src="<?php bloginfo('template_directory')?>/img/service/pain-management.svg"
-                    alt="Service Icon"
-                  />
-                </span>
-                <span class="h5 font-bold service-title">Pain Management</span>
-              </a>
-            </div>
-          </div>
-        </div>
+        <?php $services = [
+            'erectile-dysfunction-shockwave-therapy' => 'Erectile Dysfunction',
+            'peyronies-disease-or-penile-injury-shockwave-therapy' => 'Peyronie’s Disease',
+            'penile-sensitivity-regeneration' => 'Lack Of Penile Sensitivity',
+            'tennis-and-golfers-elbow' => 'Tennis Elbow',
+            'plantar-fasciitis-heel-spurs' => 'Plantar Fasciitis',
+            'scar-reduction-face-body' => 'Scar Tissue',
+            'jumpers-knee-patellar-tendinitis' => 'Tendonopathy',
+            'neuropathy' => 'Neuropathy',
+            'facial-skin-tightening-rejuvenation' => 'Skin Tightening Wrinkles',
+            'hip-pain' => 'Hip Pain',
+        ];?>            
+        <?php get_template_part( 'template-parts/service-tile-w-link' );?>
       </section>
     </div>
 

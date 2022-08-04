@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="main-container mt-4r">
     <section class="bg-img bg-overlay bg-top bg-overlay-left-full">
-        <div class="container-fluid py-5 my-xl-5 z-1 cross-vertical-right">
+        <div class="container-fluid py-5 mb-xl-5 z-1 cross-vertical-right">
             <div class="row py-lg-5 text-center justify-content-center z-1">
                 <div class="col-xl-12 col-md-12">
                     <h1 class="display-4 text-white mb-5 ">
@@ -11,7 +11,7 @@
                 <ol class="breadcrumb">
                     <li><a href="<?php echo get_site_url() ?>">Home</a></li>
                     <li><a href="<?php echo get_site_url() ?>/research">Research</a></li>
-                    <li><a href="<?php echo get_site_url() ?>/not-all-shockwaves-are-the-same">Not All Shockwaves are the Same</a></li>
+                    <li><a href="<?php echo get_site_url() ?>/research/not-all-shockwaves-are-the-same">Not All Shockwaves are the Same</a></li>
                 </ol>
             </div>
         </div>
@@ -38,16 +38,16 @@
             <p>Again, let me be very clear, Acoustic Wave, Acoustic Pressure Wave or Radial Wave devices are NOT true Shockwave devices regardless of what many medical providers claim.</p>
             <p class="mb-5">Here are two links to data which thoroughly explains the stark difference of an acoustic wave versus a shockwave.</p>
 
-            <a href="http://www.shockwavetherapy.ca/about_eswt.htm#How_do_the_physics_of_ESWT_promote_tissue_healing" class="btn btn-primary btn-w-icon mb-5 mb-xl-4" target="_blank">
-                <img src="<?php bloginfo('template_directory') ?>/img/icon-link.svg" alt="Icon" class="btn-icon">
-                <span class="d-none d-xl-block">http://www.shockwavetherapy.ca/about_eswt.htm#How_do_the_physics_of_ESWT_promote_tissue_healing</span>
-                <span class="d-block d-xl-none">Link</span>
-            </a>
-            <a href="https://sa1s3.patientpop.com/assets/docs/133854.pdf" class="btn btn-primary btn-w-icon videoPopup mb-5 mb-xl-5">
-                <img src="<?php bloginfo('template_directory') ?>/img/icon-pdf.svg" alt="Icon" class="btn-icon">
-                <span class="d-none d-xl-block">https://sa1s3.patientpop.com/assets/docs/133854.pdf</span>
-                <span class="d-block d-xl-none">PDF Link</span>
-            </a>
+            <div class="d-flex flex-column align-items-start">
+                <a href="http://www.shockwavetherapy.ca/about_eswt.htm#How_do_the_physics_of_ESWT_promote_tissue_healing" title="http://www.shockwavetherapy.ca/about_eswt.htm#How_do_the_physics_of_ESWT_promote_tissue_healing" class="btn btn-primary btn-w-icon mb-5 mb-xl-4" target="_blank">
+                    <img src="<?php bloginfo('template_directory') ?>/img/icon-link.svg" alt="Icon" class="btn-icon">
+                    <span class="btn-text">http://www.shockwavetherapy.ca/about_eswt.htm#How_do_the_physics_of_ESWT_promote_tissue_healing</span>
+                </a>
+                <a href="<?php bloginfo('template_directory') ?>/docs/133854.pdf" class="btn btn-primary btn-w-icon videoPopup mb-5 mb-xl-4">
+                    <img src="<?php bloginfo('template_directory') ?>/img/icon-pdf.svg" alt="Icon" class="btn-icon">
+                    133854.pdf
+                </a>
+            </div>
 
             <p>A true shockwave travels faster than the speed of sound, literally going 1500 meters per second or the distance of 15 football fields in one second. To put this into perspective, United States F1 fighter jets travel faster than the speed of sound and create a shockwave during flight, just on a much larger scale than a treatment for ED. In comparison, Acoustic waves travel at speeds of approximately 10 meters per second, a small fraction of true shockwave. This speed does not break the sound barrier, and no actual shockwave is produced.</p>
             <p>Unfortunately, the majority of clinics use acoustic wave therapy devices. They often call their treatment something wave, whether its Pains Wave, Main Wave, Joe Wave, or anything to differentiate themselves with.</p>
@@ -64,27 +64,24 @@
             <p class="mt-5">The truth is we are not the only ones angered by the old fashion “bait and switch” tactics of acoustic wave providers. Even in Canada, there are practices also bringing this scam to light. For example, here is Sonic Wave who states (show website)…” Companies including GAINSWave™, that are providing devices and training for ED clinics across the United States are promoting “high frequency, low-intensity sound waves to improve blood flow to the penis”, but they are conflating this with the research that has been conducted using focused shock waves.</p>
             <p>Practitioners and patients should be aware that the therapies promoted by GAINSWave, at least at this point, have not been proven to be clinically effective.”</p>
 
-            <a href="https://sonicwave.ca/sonicwave/focused-vs-radial/" class="btn btn-primary btn-w-icon mb-5 mb-xl-4" target="_blank">
+            <a href="https://sonicwave.ca/sonicwave/focused-vs-radial/" title="https://sonicwave.ca/sonicwave/focused-vs-radial/" class="btn btn-primary btn-w-icon mb-5 mb-xl-4" target="_blank">
                 <img src="<?php bloginfo('template_directory') ?>/img/icon-link.svg" alt="Icon" class="btn-icon">
-                <span class="d-none d-xl-block">https://sonicwave.ca/sonicwave/focused-vs-radial/</span>
-                <span class="d-block d-xl-none">Link</span>
+                <span class="btn-text">https://sonicwave.ca/sonicwave/focused-vs-radial/</span>
             </a>
 
             <p>Personally, I believe that most doctors offering acoustic wave therapy had their best intention in mind, but also fell into the “Bait and Switch” tactics that so many men have fallen into. Now, you can call the many “acoustic wave” providers to confirm this, but for simplicity sake, here is what the device looks like when purchased from a reputable distributor in the US.</p>
 
-            <a href="https://www.curamedix.com/product/orthopulse-ultra/" class="btn btn-primary btn-w-icon mb-5 mb-xl-4" target="_blank">
+            <a href="https://www.curamedix.com/product/orthopulse-ultra/" title="https://www.curamedix.com/product/orthopulse-ultra/" class="btn btn-primary btn-w-icon mb-5 mb-xl-4" target="_blank">
                 <img src="<?php bloginfo('template_directory') ?>/img/icon-link.svg" alt="Icon" class="btn-icon">
-                <span class="d-none d-xl-block">https://www.curamedix.com/product/orthopulse-ultra/</span>
-                <span class="d-block d-xl-none">Link</span>
+                <span class="btn-text">https://www.curamedix.com/product/orthopulse-ultra/</span>
             </a>
 
 
             <p>Another very important reality you need to understand is that while having a treatment done with an APW device there is a considerable amount of pain so much so that patients need to apply a numbing cream to their penis 30 minutes prior to their treatment. And after all that hassle it still hurts!</p>
 
-            <a href="https://sa1s3.patientpop.com/assets/docs/134018.pdf" class="btn btn-primary btn-w-icon videoPopup mb-5 mb-xl-5">
+            <a href="<?php bloginfo('template_directory') ?>/docs/134018.pdf" class="btn btn-primary btn-w-icon videoPopup mb-5 mb-xl-5">
                 <img src="<?php bloginfo('template_directory') ?>/img/icon-pdf.svg" alt="Icon" class="btn-icon">
-                <span class="d-none d-xl-block">https://sa1s3.patientpop.com/assets/docs/134018.pdf</span>
-                <span class="d-block d-xl-none">PDF Link</span>
+                <span class="btn-text">134018.pdf</span>
             </a>
 
             <p>Lastly, here is one more link which confirms that numerous studies have been performed and virtually all used either Focused Shockwave or Linear Shockwave technology. (Scroll to page 6 to show devices on the screen)</p>
@@ -99,10 +96,9 @@
             <p>If you’re here in So Calf hopefully you’ll choose LaSara Medical group.</p>
             <p>Finally, you may have come across “buy your own device for at home shockwave treatment.” These scams are laughable! The device these companies are advertising are ultrasound devices that can be purchased for $150 dollars at your local Walmart.</p>
 
-            <a href="https://www.walmart.com/ip/US-PRO-2000-DU3035-With-Free-Subzero-Pain-Relief-Roll-On-Gel-Home-use-Drug-Free-Pain-Relief-for-Personal-Care/200058601" class="btn btn-primary btn-w-icon mb-5 mb-xl-4 mx-44" target="_blank">
+            <a href="https://www.walmart.com/ip/US-PRO-2000-DU3035-With-Free-Subzero-Pain-Relief-Roll-On-Gel-Home-use-Drug-Free-Pain-Relief-for-Personal-Care/200058601" title="https://www.walmart.com/ip/US-PRO-2000-DU3035-With-Free-Subzero-Pain-Relief-Roll-On-Gel-Home-use-Drug-Free-Pain-Relief-for-Personal-Care/200058601" class="btn btn-primary btn-w-icon mb-5 mb-xl-4 mx-44" target="_blank">
                 <img src="<?php bloginfo('template_directory') ?>/img/icon-link.svg" alt="Icon" class="btn-icon">
-                <span class="d-none d-xl-block">https://www.walmart.com/ip/US-PRO-2000-DU3035-With-Free-Subzero-Pain-Relief-Roll-On-Gel-Home-use-Drug-Free-Pain-Relief-for-Personal-Care/200058601</span>
-                <span class="d-block d-xl-none">Link</span>
+                <span class="btn-text">https://www.walmart.com/ip/US-PRO-2000-DU3035-With-Free-Subzero-Pain-Relief-Roll-On-Gel-Home-use-Drug-Free-Pain-Relief-for-Personal-Care/200058601</span>
             </a>
             <p class="mb-5">But these at home shockwave companies are selling them to you for $1000 – not a single one of the doctors, researchers, or scientists around the world has used this device in any research for ED.</p>
 

@@ -2,34 +2,21 @@
 <div class="main-container mt-4r">
       <section
         class="bg-img bg-overlay bg-top bg-overlay-left-full py-5 bg-top bg-overlay-left-full"
-        data-background-image="<?php bloginfo('template_directory')?>/img/old-man-with-cane.jpg"
       >
-        <div class="container-fluid py-5 my-xl-5 z-1 cross-vertical-right">
-          <div class="row py-lg-5">
-            <div class="col-xl-4 col-md-6 offset-md-1">
-              <h1 class="text-white mb-5">Stories from our Patient</h1>
+        <div class="container-fluid  z-1 cross-vertical-right">
+          <div class="row py-lg-5 justify-content-center">
+            <div class="col-auto text-center">
+              <h1 class="text-white mb-5">Testimonials</h1>
+              <h4 class="font-light text-white line-height-lg">We’ve changed the lives of countless patients and we can change yours too</h4>
             </div>
           </div>
         </div>
       </section>
 
-      <section
-        class="testimonial-section bg-secondary-light py-5 rad-bor-bottom rad-top"
-      >
-        <div class="container py-lg-5">
-          <div
-            class="d-flex flex-column flex-lg-row mb-5"
-          >
-            <div class="col-auto">
-              <h2 class="me-5">Testimonials</h2>
-            </div>
-            <div class="col-lg-8 ps-lg-5 border-lg-left">
-              <h3 class="font-extralight text-primary w-75">
-                We’ve Changed The Lives Of Countless Men We Can Change Yours Too
-              </h3>
-            </div>
-          </div>
-          <div class="testimonial_slick">
+    <section class="py-5 tabs-section">
+<div class="container">
+
+ <div class="testimonial_slick">
      
           <?php
 
@@ -59,7 +46,7 @@ if( $image ) {
                 <a
                   href=" <?php echo get_sub_field('read_more');?>"
                   class="text-secondary font-bold videoPopup"
-                  >Read More</a
+                  >Watch Video</a
                 >
               </div>
             </div>
@@ -76,109 +63,128 @@ endif;
 ?>
   
           </div>
-        </div>
-      </section>
-      <section class="py-5">
-        <div class="container text-center">
-          <h2 class="mb-5">More Patient Stories</h2>
-          <div class="row justify-content-center">
-            <div class="col-md-8">
-              <p class="mb-5">
-                “These guys are Pros. no pills, no empty promises. Just
-                rational, scientific treatment that cannot avoid helping.”
-                <strong class="d-block">– Maurice, 69</strong>
-              </p>
+<ul class=" mt-5 pt-5 nav nav-pills mb-3 d-flex justify-content-between" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><p>Los Angeles</p> <span class="fa fa-star"></span><span>56 Reviews</span></button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><p>Tustin</p><span class="fa fa-star"></span><span>56 Reviews</span></button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><p>Encinitas</p><span class="fa fa-star"></span><span>56 Reviews</span></button>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+  <div class="grid-container">
+  
 
-              <p class="mb-5">
-                “Dr. DeYoung and his medical staff went above and beyond to care
-                for me. I am 100% satisfied with my experience and my ED was
-                successfully reversed with the shock wave treatments. The staff
-                is very professional and knowledgeable. Clean and comfortable
-                office. Plus, they greeted me with a fresh coffee every visit.
-                Thank you LaSara, I’ve already referred several friends to your
-                clinic.” <strong class="d-block">- Stephen, 68</strong>
-              </p>
+  <div class="column">
+    <img src="<?php bloginfo('template_directory')?>/img/testimonial/c11.png">
 
-              <p class="mb-5">
-                “The staff was very respectful and private. The process was
-                explained in detail.”
-                <strong class="d-block">- Paul, age 67</strong>
-              </p>
+    <img src="<?php bloginfo('template_directory')?>/img/testimonial/c12.png">
 
-              <p class="mb-5">
-                “Staff was extremely knowledgeable and friendly. Doctor made me
-                feel very comfortable and listened to my needs. Starting to see
-                early results from treatment. Office nice, ESPN on, felt
-                comfortable.” <strong class="d-block">- Mike, 72</strong>
-              </p>
+    <img src="<?php bloginfo('template_directory')?>/img/testimonial/c13.png">
 
-              <p class="mb-5">
-                “The team at LaSara asked me to provide a review once I got
-                results, so here I am. No better way to say it than, I am back
-                in action! Great experience all around. Especially appreciated
-                the doctors time. Getting this thing in order helped me improve
-                other aspect of my health. Lost 20 pounds and started eating
-                better. ” <strong class="d-block">-Charles, 55</strong>
-              </p>
+  </div>
 
-              <p class="mb-5">
-                “Life changing positive experience. We laugh at the thought of
-                ED until we experience it ourselves. I’m forever thankful for
-                the LaSara team – Dale, Yeon, John, and Dr DeYoung. Their
-                shockwave treatment works wonders. I did the 12 treatment
-                protocol and saw results about half way through. Since then it’s
-                only gotten better. Nice office and environment too, which goes
-                a long way when you have to come in multiple times.”
-                <strong class="d-block">- Jake, 52</strong>
-              </p>
+  <div class="column">
+  
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c21.png">
 
-              <p class="mb-5">
-                “I am so glad I opted to be treated by LaSara. When I heard
-                about their treatment from a mutual friend, I was intrigued
-                because I was not necessarily suffering from severe ED issues
-                but I was interested in the treatment as a tool to enhance my
-                sex life. The shockwave therapy not only helped any issues with
-                ED I was having, it also increased my sexual performance in the
-                bedroom significantly enough that it was noticed by my partner.
-                Especially as a younger guy it’s never comfortable talking to
-                your doctor about this kind of stuff but John and the team made
-                me feel comfortable from the initial phone consult throughout
-                the duration of all of my sessions. They were great at
-                accommodating my busy schedule allowing me to pursue treatment
-                at both locations without an issue. I couldn’t be happier with
-                the results of my investment and i’ve recommended LaSara to
-                numerous friends and family members.”
-                <strong class="d-block">- Ryan, 31</strong>
-              </p>
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c22.png">
 
-              <p class="mb-5">
-                “LaSara is changing the game for men with ED. I can’t say enough
-                about my experience. Dr. Taekman was gracious and comforting,
-                and his staff was more than educated on men’s health. I elected
-                to do the shockwave treatment and have experienced better than
-                expected results. Before coming in, I was getting worried about
-                pills not working anymore. Today, I don’t have to use pills at
-                all. Highly recommend this treatment to any man dealing with
-                this issue.” <strong class="d-block">- Chase, 33</strong>
-              </p>
 
-              <p class="mb-5">
-                “To be honest this is not a subject I EVER feel comfortable
-                talking about, but my experience was so life changing I had to
-                write a review. After hearing about LaSara on the radio, I
-                decided to give them a call. After a brief phone call I went
-                into LaSara for a consultation. I was very pleased with the
-                professionalism of the staff and how comfortable they made me
-                feel. After my consultation I decided to move forward with the
-                shock wave therapy treatment and it has been noting but a
-                blessing since. I am finally feeling comfortable in bed again!
-                If you are on the fence, don’t be…”
-                <strong class="d-block"> -James, 48</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c23.png">  
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c24.png">
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c25.png">
+  </div>
+
+  <div class="column">
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c31.png">
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c32.png">
+
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c33.png">
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c34.png">
+  </div>
+
+</div>
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+  <div class="grid-container">
+  
+  <div class="column">
+  
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c21.png">
+
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c22.png">
+
+
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c23.png">  
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c24.png">
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c25.png">
+  </div>
+  <div class="column">
+    <img src="<?php bloginfo('template_directory')?>/img/testimonial/c11.png">
+
+    <img src="<?php bloginfo('template_directory')?>/img/testimonial/c12.png">
+
+    <img src="<?php bloginfo('template_directory')?>/img/testimonial/c13.png">
+
+  </div>
+
+
+
+  <div class="column">
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c31.png">
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c32.png">
+
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c33.png">
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c34.png">
+  </div>
+
+</div>
+  </div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+  <div class="grid-container">
+  
+  <div class="column">
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c31.png">
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c32.png">
+
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c33.png">
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c34.png">
+  </div>
+  <div class="column">
+    <img src="<?php bloginfo('template_directory')?>/img/testimonial/c11.png">
+
+    <img src="<?php bloginfo('template_directory')?>/img/testimonial/c12.png">
+
+    <img src="<?php bloginfo('template_directory')?>/img/testimonial/c13.png">
+
+  </div>
+
+  <div class="column">
+  
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c21.png">
+
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c22.png">
+
+
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c23.png">  
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c24.png">
+  <img src="<?php bloginfo('template_directory')?>/img/testimonial/c25.png">
+  </div>
+
+ 
+
+</div>
+  </div>
+</div>
+  
+    </section>
+
     </div>
-
+    </div>
 <?php get_footer();?>

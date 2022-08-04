@@ -313,7 +313,7 @@
                 interested in learning more about our shockwave therapy
                 treatments,
                 <a
-                  href="<?php echo get_site_url() ?>/contact"
+                  href="<?php echo get_site_url() ?>/contactus"
                   class="text-white text-underline font-bold"
                   >schedule a consultation</a
                 >

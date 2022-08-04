@@ -46,8 +46,8 @@ function clm_main_nav()
         'container' => 'ul', // remove nav container
         'menu' => 'Main Navigation', // nav name
         'menu_id' => '', // custom id
-        'menu_class' => 'nav', // custom class
-        'items_wrap' => '<ul class="nav">%3$s</ul>',
+        'menu_class' => 'nav-menu navbar-nav ms-xxl-3', // custom class
+        'items_wrap' => '<ul class="nav-menu navbar-nav ms-xxl-3">%3$s</ul>',
         'theme_location' => 'main', // where it's located in the theme
         'before' => '', // before the menu
         'after' => '', // after the menu

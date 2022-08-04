@@ -158,6 +158,7 @@
               <div class="contact_location sticky-top pb-2">
                 <div class="map_slick mb-5">
                   <div class="location-map">
+                   <a href="<?php echo get_site_url() ?>/location/ca/tustin">
                     <img
                       src="<?php bloginfo('template_directory')?>/img/location/map-1.jpg"
                       alt="MAP"
@@ -171,8 +172,11 @@
                         >949-520-1551</a
                       >
                     </div>
+                    </a>
+                    
                   </div>
                   <div class="location-map">
+                   <a href="<?php echo get_site_url() ?>/location/ca/sawtelle">
                     <img
                       src="<?php bloginfo('template_directory')?>/img/location/map-1.jpg"
                       alt="MAP"
@@ -186,8 +190,10 @@
                         >424-343-8998</a
                       >
                     </div>
+                    </a>
                   </div>
                   <div class="location-map">
+                    <a href="<?php echo get_site_url() ?>/location/ca/encinitas">
                     <img
                       src="<?php bloginfo('template_directory')?>/img/location/map-1.jpg"
                       alt="MAP"
@@ -201,6 +207,7 @@
                         >760-266-8466</a
                       >
                     </div>
+                    </a>
                   </div>
                 </div>
                 <div class="contact_location_slick pt-5">

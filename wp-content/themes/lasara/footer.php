@@ -37,7 +37,7 @@
                       <a href="<?php echo get_site_url() ?>/research" class="text-white">Research</a>
                     </li>
                     <li class="mb-2">
-                      <a href="<?php echo get_site_url() ?>/contact" class="text-white">Contact</a>
+                      <a href="<?php echo get_site_url() ?>/contactus" class="text-white">Contact</a>
                     </li>
                     <li class="mb-2">
                       <a href="https://lasara.formstack.com/forms/lasara_medical_group_new_patient_forms_packet" target="_blank" class="text-white">New Patient Forms</a>
@@ -48,27 +48,27 @@
                   <h5 class="font-black text-white mb-4">Our Services</h5>
                   <ul class="list-unstyled p-0 text-small">
                     <li class="mb-3">
-                      <a href="#" class="text-white"
+                      <a href="<?php echo get_site_url()  ?>/services/mens-sexual-health-treatments" class="text-white"
                         >Men’s Sexual Health Treatments</a
                       >
                     </li>
                     <li class="mb-3">
-                      <a href="#" class="text-white"
+                      <a href="<?php echo get_site_url()  ?>/services/testosterone-hormone-replace-therapy" class="text-white"
                         >Testosterone Replacement Therapy </a
                       >
                     </li>
                     <li class="mb-3">
-                      <a href="#" class="text-white"
+                      <a href="<?php echo get_site_url()  ?>/services/performance-peptides-nad" class="text-white"
                         >Performance Peptides & NAD+ </a
                       >
                     </li>
                     <li class="mb-3">
-                      <a href="#" class="text-white"
+                      <a href="<?php echo get_site_url()  ?>/services/orthopedics-pain-management" class="text-white"
                         >Orthopedics & Pain Management</a
                       >
                     </li>
                     <li class="mb-3">
-                      <a href="#" class="text-white"
+                      <a href="<?php echo get_site_url()  ?>/services/aesthetics" class="text-white"
                         >Aesthetics</a
                       >
                     </li>
@@ -166,20 +166,20 @@
               </p>
               <ul class="list-unstyled m-0 p-0 d-flex flex-wrap">
                 <li>
-                  <a href="#" class="text-white-light px-3">Privacy Policy</a>
+                  <a href="<?php echo get_site_url()  ?>/privacy-policy" class="text-white-light px-3">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="#" class="text-white-light px-3"
+                  <a href="<?php echo get_site_url()  ?>/terms-conditions" class="text-white-light px-3"
                     >Terms & Conditions</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-white-light px-3"
+                  <a href="<?php echo get_site_url()  ?>/accessibility-statement" class="text-white-light px-3"
                     >Accessibility Notice</a
                   >
                 </li>
                 <li>
-                  <a href="<?php echo get_site_url() ?>/contact" class="text-white-light px-3"
+                  <a href="<?php echo get_site_url() ?>/contactus" class="text-white-light px-3"
                     >Contact Us</a
                   >
                 </li>
@@ -227,7 +227,9 @@
 
     <script>
       $(document).ready(function () {
-        $(".videoPopup").magnificPopup({
+      $('.mega-indicator').prepend($('<i class="fa-solid fa-chevron-down"></i>'));
+           $('#mega-menu-wrap-main').addClass('nav-menu navbar-nav ms-xxl-3');
+      $(".videoPopup").magnificPopup({
           type: "iframe",
           mainClass: "mfp-fade",
           removalDelay: 160,

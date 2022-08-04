@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="main-container mt-4r">
     <section class="bg-img bg-overlay bg-top bg-overlay-left-full">
-        <div class="container-fluid py-5 my-xl-5 z-1 cross-vertical-right">
+        <div class="container-fluid py-5 mb-xl-5 z-1 cross-vertical-right">
             <div class="row py-lg-5 text-center justify-content-center z-1">
                 <div class="col-xl-12 col-md-12">
                     <h1 class="display-4 text-white mb-5 ">
@@ -11,7 +11,7 @@
                 <ol class="breadcrumb">
                     <li><a href="<?php echo get_site_url() ?>">Home</a></li>
                     <li><a href="<?php echo get_site_url() ?>/about">About</a></li>
-                    <li><a href="<?php echo get_site_url() ?>/why-lasara-vs-the-competition">Why LaSara vs. the Competition</a></li>
+                    <li><a href="<?php echo get_site_url() ?>/about/why-lasara-vs-the-competition">Why LaSara vs. the Competition</a></li>
                 </ol>
             </div>
         </div>
@@ -141,60 +141,7 @@
             <?php get_template_part('template-parts/service-tile-w-link'); ?>
     </section>
 
-    <section class="location py-5 rad-bor-bottom">
-        <div class="container py-lg-5">
-            <div class="d-flex flex-column flex-lg-row align-items-center mb-5 animate__animated" data-animate="slideInUp">
-                <h2 class="me-5">Our Locations</h2>
-                <h3 class="font-extralight text-primary ps-lg-5 border-lg-left">
-                    Serving Los Angeles, Orange County, And San Diego
-                </h3>
-            </div>
-            <div class="row justify-content-center mb-5 animate__animated" data-animate="slideInUp">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="location-map">
-                        <img src="<?php bloginfo('template_directory') ?>/img/location/map-1.jpg" alt="MAP" class="img-fluid" />
-                        <div class="c-card bg-white p-4 location-detail">
-                            <p class="font-bold text-black">
-                                17411 Irvine Blvd. Suite J, Tustin, CA 92780
-                            </p>
-                            <a href="tel:949-520-1551" class="btn btn-grad">949-520-1551</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="location-map">
-                        <img src="<?php bloginfo('template_directory') ?>/img/location/map-1.jpg" alt="MAP" class="img-fluid" />
-                        <div class="c-card bg-white p-4 location-detail">
-                            <p class="font-bold text-black">
-                                11500 W Olympic Blvd Suite 440, Los Angeles, CA 90064
-                            </p>
-                            <a href="tel:424-343-8998" class="btn btn-grad">424-343-8998</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="location-map">
-                        <img src="<?php bloginfo('template_directory') ?>/img/location/map-1.jpg" alt="MAP" class="img-fluid" />
-                        <div class="c-card bg-white p-4 location-detail">
-                            <p class="font-bold text-black">
-                                285 N El Camino Real Suite 117, Encinitas, CA 92024
-                            </p>
-                            <a href="tel:760-266-8466" class="btn btn-grad">760-266-8466</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="location_slick">
-                <img src="<?php bloginfo('template_directory') ?>/img/location/location-1a.jpg" alt="Location" />
-                <img src="<?php bloginfo('template_directory') ?>/img/location/location-2a.jpg" alt="Location" />
-                <img src="<?php bloginfo('template_directory') ?>/img/location/location-3a.jpg" alt="Location" />
-                <img src="<?php bloginfo('template_directory') ?>/img/location/location-4a.jpg" alt="Location" />
-                <img src="<?php bloginfo('template_directory') ?>/img/location/location-1.jpg" alt="Location" />
-                <img src="<?php bloginfo('template_directory') ?>/img/location/location-2.jpg" alt="Location" />
-                <img src="<?php bloginfo('template_directory') ?>/img/location/location-3.jpg" alt="Location" />
-            </div>
-        </div>
-    </section>
+      <?php get_template_part('template-parts/locations'); ?>  
 </div>
 
 <?php get_footer(); ?>

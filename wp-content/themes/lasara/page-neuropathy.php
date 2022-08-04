@@ -292,7 +292,7 @@
                 tingling, numbness, and pain due to neuropathy, schedule a
                 consultation with us today!
               </p>
-              <a href="<?php echo get_site_url() ?>/contact" class="btn btn-grad"
+              <a href="<?php echo get_site_url() ?>/contactus" class="btn btn-grad"
                 >SCHEDULE A CONVERSATION</a
               >
             </div>

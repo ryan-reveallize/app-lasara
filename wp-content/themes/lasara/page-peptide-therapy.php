@@ -227,10 +227,10 @@
           <p class="text-white mb-5">
             At LaSara Medical Group, we understand the unique challenges faced by men and women. With offices in Los Angeles, Orange County, and San Diego, our highest priority is to help you get back to feeling more like yourself. Peptide therapy at LaSara Medical Group provides a safe and effective way to improve and rejuvenate your health. If you are interested in learning more about our peptide therapy treatments, schedule a consultation with us today!
 
-            <a href="<?php echo get_site_url() ?>/contact" class="text-white text-underline font-bold">schedule a consultation</a>
+            <a href="<?php echo get_site_url() ?>/contactus" class="text-white text-underline font-bold">schedule a consultation</a>
             with us today!
           </p>
-          <a href="<?php echo get_site_url() ?>/contact" class="btn btn-grad">SCHEDULE A CONVERSATION</a>
+          <a href="<?php echo get_site_url() ?>/contactus" class="btn btn-grad">SCHEDULE A CONVERSATION</a>
         </div>
       </div>
     </div>

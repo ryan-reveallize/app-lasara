@@ -198,10 +198,10 @@
               Get Back to Feeling Like Yourself
             </h2>
             <p class="text-white mb-5">
-              At LaSara Medical Group, we understand the unique challenges faced by men. With offices in Los Angeles, Orange County, and San Diego, our highest priority is to help you get back to feeling more like yourself. Testosterone replacement therapy at LaSara Medical Group provides a safe and effective way to correct hormonal imbalances. If you'd like to find out more about testosterone replacement therapy, <a href="<?php echo get_site_url() ?>/contact" class="text-white text-underline font-bold">schedule a consultation</a> with us today! 
+              At LaSara Medical Group, we understand the unique challenges faced by men. With offices in Los Angeles, Orange County, and San Diego, our highest priority is to help you get back to feeling more like yourself. Testosterone replacement therapy at LaSara Medical Group provides a safe and effective way to correct hormonal imbalances. If you'd like to find out more about testosterone replacement therapy, <a href="<?php echo get_site_url() ?>/contactus" class="text-white text-underline font-bold">schedule a consultation</a> with us today! 
             </p>
             
-            <a href="<?php echo get_site_url() ?>/contact" class="btn btn-grad">SCHEDULE A CONVERSATION</a>
+            <a href="<?php echo get_site_url() ?>/contactus" class="btn btn-grad">SCHEDULE A CONVERSATION</a>
           </div>
         </div>
       </div>

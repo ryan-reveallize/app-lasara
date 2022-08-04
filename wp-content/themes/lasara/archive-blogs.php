@@ -28,14 +28,14 @@ $pargs = array(
 );
 
 $query = new WP_Query($pargs);
-?>
+
 ?>
 <div class="main-container mt-4r">
       <section
         class="bg-img bg-overlay bg-top bg-overlay-left-full py-5 bg-top bg-overlay-left-full"
         data-background-image="<?php bloginfo('template_directory') ?>/img/old-man-with-cane.jpg"
       >
-        <div class="container-fluid py-5 my-xl-5 z-1 cross-vertical-right">
+        <div class="container-fluid py-5 mb-xl-5 z-1 cross-vertical-right">
           <div class="row py-lg-5">
             <div class="col-xl-4 col-md-6 offset-md-1">
               <h1 class="text-white mb-5">News and Updates</h1>

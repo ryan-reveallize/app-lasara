@@ -46,7 +46,7 @@ global $services;
                       Offices in Los Angeles, Orange County, and San
                       Diego
                     </p>
-                    <a href="<?php echo get_site_url() ?>/contact" class="btn btn-grad mb-4"
+                    <a href="<?php echo get_site_url() ?>/contactus" class="btn btn-grad mb-4"
                       >Call Us</a
                     >
                     <a
@@ -75,7 +75,7 @@ global $services;
                       A New, Proven Treatment to Reverse Erectile Dysfunction
                       for the Long-Term
                     </p>
-                    <a href="<?php echo get_site_url() ?>/contact" class="btn btn-grad mb-4"
+                    <a href="<?php echo get_site_url() ?>/contactus" class="btn btn-grad mb-4"
                       >Call Us</a
                     >
                     <a
@@ -103,7 +103,7 @@ global $services;
                       The truth about Focused Shockwave Therapy vs.
                       Acoustic/Sound Wave Therapy
                     </p>
-                    <a href="<?php echo get_site_url() ?>/contact" class="btn btn-grad mb-4"
+                    <a href="<?php echo get_site_url() ?>/contactus" class="btn btn-grad mb-4"
                       >Call Us</a
                     >
                     <a
@@ -150,13 +150,13 @@ global $services;
       <section class="home-service">
         <div class="container-fluid px-xl-5">
           <?php $services = [
-            'Erectile Dysfunction',
-            'Testosterone Replacement Therapy',
-            'Performance Peptides & Nad+',
-            'Orthopedics & Pain Management',
-            'Aesthetics'
+                   'erectile-dysfunction-shockwave-therapy' => 'Erectile Dysfunction',
+            'testosterone-hormone-replace-therapy'=>'Testosterone Replacement Therapy',
+           'performance-peptides-nad'=>'Performance Peptides & Nad+',
+           'orthopedics-pain-management'=>'Orthopedics & Pain Management',
+            'aesthetics'=>'Aesthetics'
           ];?>
-          <?php get_template_part( 'template-parts/service-tile' );?>
+          <?php get_template_part( 'template-parts/service-tile-w-link' );?>
         </div>
       </section>
       <section class="our-practice mt-5 py-5">
@@ -231,10 +231,10 @@ global $services;
               >
                 <h2 class="mb-3">Regenerative Treatments</h2>
                 <ul class="list-check-grad mb-4">
-                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/erectile-dysfunction-shockwave-therapy">Erectile Dysfunction Shockwave Therapy</a></li>
-                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/peyronies-disease-or-penile-injury-shockwave-therapy">Peyronie’s Disease or Penile Injury Shockwave Therapy</a></li>
-                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/penile-sensitivity-regeneration">Penile Sensitivity Regeneration Shockwave Therapy</a></li>
-                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/pelvic-pain-syndrome-and-chronic-prostatitis">Pelvic Pain Syndrome and Chronic Prostatitis Shockwave Therapy</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/erectile-dysfunction-shockwave-therapy">Erectile Dysfunction Shockwave Therapy</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/peyronies-disease-or-penile-injury-shockwave-therapy">Peyronie’s Disease or Penile Injury Shockwave Therapy</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/penile-sensitivity-regeneration">Penile Sensitivity Regeneration Shockwave Therapy</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/pelvic-pain-syndrome-and-chronic-prostatitis">Pelvic Pain Syndrome and Chronic Prostatitis Shockwave Therapy</a></li>
                 </ul>
                 <a href="<?php echo get_site_url() ?>/about/why-lasara-vs-the-competition" class="btn btn-lg btn-grad">Why LaSara?</a>
               </div>
@@ -249,9 +249,9 @@ global $services;
               >
                 <h2 class="mb-3">Traditional Treatments</h2>
                 <ul class="list-check-grad mb-4">
-                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/penile-injection-therapy">Penile Injection Therapy</a></li>
-                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/pharmaceuticals">Pharmaceutical Treatments</a></li>
-                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/peptide-therapy">Peptide Therapies</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/penile-injection-therapy">Penile Injection Therapy</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/pharmaceuticals">Pharmaceutical Treatments</a></li>
+                  <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/peptide-therapy">Peptide Therapies</a></li>
                 </ul>
                 <a href="<?php echo get_site_url() ?>/about/why-lasara-vs-the-competition" class="btn btn-lg btn-grad">Why LaSara?</a>
               </div>
@@ -272,7 +272,7 @@ global $services;
               <p class="text-white mb-5">
                 At LaSara Medical Group, we offer a variety of hormone treatments, peptide protocols, and NAD+ products that are designed to help our patients achieve their health and life goals. By optimizing your body’s inputs with medically advanced treatments, you provide your body and mind the tools it needs to perform at your highest level physically and mentally.
               </p>
-              <a href="#" class="btn btn-lg btn-grad">Shop Now</a>
+          
             </div>
           </div>
         </div>
@@ -305,14 +305,13 @@ global $services;
                   >
                   <ul class="list-check-grad m-0">
                   
-                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/neuropathy">Neuropathy</a></li>
-                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/plantar-fasciitis-heel-spurs">Plantar Fasciitis & Heel Spurs </a></li>
-                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/jumpers-knee-patellar-tendinitis">Jumper’s Knee & Patellar Tendinitis </a></li>
-                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/painful-shoulder-tendinopathy">Painful Shoulder </a></li>
-                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/tennis-and-golfers-elbow">Tennis And Golfer’s Elbow </a></li>
-                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/muscle-pain-tear">Muscle Pain & Tear </a></li>
-                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/hip-pain">Hip Pain </a></li>
-                    <li class="mb-0"><a href="#">Bone Fracture</a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/neuropathy">Neuropathy</a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/plantar-fasciitis-heel-spurs">Plantar Fasciitis & Heel Spurs </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/jumpers-knee-patellar-tendinitis">Jumper’s Knee & Patellar Tendinitis </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/painful-shoulder-tendinopathy">Painful Shoulder </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/tennis-and-golfers-elbow">Tennis And Golfer’s Elbow </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/muscle-pain-tear">Muscle Pain & Tear </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/hip-pain">Hip Pain </a></li>
                   </ul>
                 </a>
               </div>
@@ -330,9 +329,9 @@ global $services;
                     >Aesthetics</span
                   >
                   <ul class="list-check-grad m-0">
-                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/facial-skin-tightening-rejuvenation">Facial Skin Tightening & Rejuvenation </a></li>
-                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/scar-reduction-face-body">Scar reduction face & body </a></li>
-                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/cellulite">Cellulite</a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/facial-skin-tightening-rejuvenation">Facial Skin Tightening & Rejuvenation </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/scar-reduction-face-body">Scar reduction face & body </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/cellulite">Cellulite</a></li>
                   </ul>
                 </a>
               </div>
@@ -387,7 +386,7 @@ if( $image ) {
                 <a
                   href=" <?php echo get_sub_field('read_more');?>"
                   class="text-secondary font-bold videoPopup"
-                  >Read More</a
+                  >Watch Video</a
                 >
               </div>
             </div>
@@ -405,90 +404,13 @@ endif;
   
           </div>
           <div class="text-center pt-5 mt-5">
-            <a href="<?php echo get_site_url() ?>/testimonials" class="btn btn-grad"
+            <a href="<?php echo get_site_url() ?>/about/testimonials" class="btn btn-grad"
               >MORE PATIENT STORIES</a
             >
           </div>
         </div>
       </section>
-      <section class="location py-5 rad-bor-bottom">
-        <div class="container py-lg-5">
-          <div
-            class="d-flex flex-column flex-lg-row align-items-center mb-5 animate__animated"
-            data-animate="slideInUp"
-          >
-            <h2 class="me-5">Our Locations</h2>
-            <h3 class="font-extralight text-primary ps-lg-5 border-lg-left">
-            Serving Los Angeles, Orange County, And San Diego
-            </h3>
-          </div>
-          <div
-            class="row justify-content-center mb-5 animate__animated"
-            data-animate="slideInUp"
-          >
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="location-map">
-                <img
-                  src="<?php bloginfo('template_directory')?>/img/location/map-1.jpg"
-                  alt="MAP"
-                  class="img-fluid"
-                />
-                <div class="c-card bg-white p-4 location-detail">
-                  <p class="font-bold text-black">
-                    17411 Irvine Blvd. Suite J, Tustin, CA 92780
-                  </p>
-                  <a href="tel:949-520-1551" class="btn btn-grad"
-                    >949-520-1551</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="location-map">
-                <img
-                  src="<?php bloginfo('template_directory')?>/img/location/map-1.jpg"
-                  alt="MAP"
-                  class="img-fluid"
-                />
-                <div class="c-card bg-white p-4 location-detail">
-                  <p class="font-bold text-black">
-                    11500 W Olympic Blvd Suite 440, Los Angeles, CA 90064
-                  </p>
-                  <a href="tel:424-343-8998" class="btn btn-grad"
-                    >424-343-8998</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="location-map">
-                <img
-                  src="<?php bloginfo('template_directory')?>/img/location/map-1.jpg"
-                  alt="MAP"
-                  class="img-fluid"
-                />
-                <div class="c-card bg-white p-4 location-detail">
-                  <p class="font-bold text-black">
-                    285 N El Camino Real Suite 117, Encinitas, CA 92024
-                  </p>
-                  <a href="tel:760-266-8466" class="btn btn-grad"
-                    >760-266-8466</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="location_slick">
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-1a.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-2a.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-3a.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-4a.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-1.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-2.jpg" alt="Location" />
-            <img src="<?php bloginfo('template_directory')?>/img/location/location-3.jpg" alt="Location" />
-          </div>
-        </div>
-      </section>
+      <?php get_template_part('template-parts/locations'); ?>  
     </div>
 
 <?php get_footer(); ?>
