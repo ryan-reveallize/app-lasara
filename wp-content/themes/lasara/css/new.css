@@ -489,3 +489,8 @@ iframe.location-map{  width:100% !important;}
 iframe.location-map{    height: 10rem;
 }
 }
+@media screen and (min-width: 992px) {
+    .what-we-offer-list > div:not(:first-child){
+        border-left: 1px solid #dee2e6;
+    }
+}

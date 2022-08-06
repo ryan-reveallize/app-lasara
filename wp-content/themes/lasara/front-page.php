@@ -152,7 +152,7 @@ global $services;
           <?php $services = [
                    'mens-sexual-health-treatments' => 'Mens Sexual Health Treatments',
             'testosterone-hormone-replace-therapy'=>'Testosterone Replacement Therapy',
-           'performance-peptides-nad'=>'Performance Peptides & Nad+',
+           'hormones-peptides-nad'=>'Hormones, Peptides & NAD+',
            'orthopedics-pain-management'=>'Orthopedics & Pain Management',
             'aesthetics'=>'Aesthetics'
           ];?>

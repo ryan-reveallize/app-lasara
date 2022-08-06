@@ -84,13 +84,19 @@ function clm_footer1_nav()
 
 // Option page
 if (function_exists('acf_add_options_page')) {
-    acf_add_options_page(array(
+    $parent = acf_add_options_page(array(
         'page_title' => 'Site Settings',
         'menu_title' => 'Site Settings',
         'menu_slug' => 'theme-general-settings',
         'capability' => 'edit_posts',
         'redirect' => false
     ));
+	// Add sub page.
+	$service_settings = acf_add_options_sub_page(array(
+		'page_title'  => __('Services'),
+		'menu_title'  => __('Services'),
+		'parent_slug' => $parent['menu_slug'],
+	));
 }
 
 

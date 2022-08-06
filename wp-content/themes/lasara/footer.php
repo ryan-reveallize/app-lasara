@@ -1,4 +1,3 @@
-
     <footer class="bg-grad-2 pt-lg-5">
       <div class="footer-top py-5">
         <div class="container">
@@ -58,8 +57,8 @@
                       >
                     </li>
                     <li class="mb-3">
-                      <a href="<?php echo get_site_url()  ?>/services/performance-peptides-nad" class="text-white"
-                        >Performance Peptides & NAD+ </a
+                      <a href="<?php echo get_site_url()  ?>/services/hormones-peptides-nad" class="text-white"
+                        >Hormones, Peptides & NAD+</a
                       >
                     </li>
                     <li class="mb-3">
