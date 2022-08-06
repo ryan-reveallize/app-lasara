@@ -166,7 +166,7 @@
                     />
                     <div class="c-card bg-white p-4 location-detail">
                       <p class="font-bold text-black">
-                        17411 Irvine Blvd. Suite J, Tustin, CA 92780
+                        17411 Irvine Blvd. Suite J, <br/>Tustin, CA 92780
                       </p>
                       <a href="tel:949-520-1551" class="btn btn-grad"
                         >949-520-1551</a
@@ -184,7 +184,7 @@
                     />
                     <div class="c-card bg-white p-4 location-detail">
                       <p class="font-bold text-black">
-                        11500 W Olympic Blvd Suite 440, Los Angeles, CA 90064
+                        11500 W Olympic Blvd Suite 440, <br/>Los Angeles, CA 90064
                       </p>
                       <a href="tel:424-343-8998" class="btn btn-grad"
                         >424-343-8998</a
@@ -201,7 +201,7 @@
                     />
                     <div class="c-card bg-white p-4 location-detail">
                       <p class="font-bold text-black">
-                        285 N El Camino Real Suite 117, Encinitas, CA 92024
+                        285 N El Camino Real Suite 211, <br/>Encinitas, CA 92024
                       </p>
                       <a href="tel:760-266-8466" class="btn btn-grad"
                         >760-266-8466</a

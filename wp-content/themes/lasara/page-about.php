@@ -94,7 +94,7 @@
             </div>
             <div class="col-lg-8 ps-lg-5 border-lg-left">
               <h3 class="font-extralight text-primary w-75">
-                We’ve Changed The Lives Of Countless Men We Can Change Yours Too
+                We’ve Changed The Lives Of Countless Patients We Can Change Yours Too
               </h3>
             </div>
           </div>

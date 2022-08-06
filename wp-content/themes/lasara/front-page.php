@@ -50,7 +50,7 @@ global $services;
                       >Call Us</a
                     >
                     <a
-                      href="<?php echo get_site_url() ?>/about"
+                      href="<?php echo get_site_url() ?>/our-mission"
                       class="btn btn-outline-white mb-4 ms-sm-4"
                       >Learn More</a
                     >
@@ -150,7 +150,7 @@ global $services;
       <section class="home-service">
         <div class="container-fluid px-xl-5">
           <?php $services = [
-                   'erectile-dysfunction-shockwave-therapy' => 'Erectile Dysfunction',
+                   'mens-sexual-health-treatments' => 'Mens Sexual Health Treatments',
             'testosterone-hormone-replace-therapy'=>'Testosterone Replacement Therapy',
            'performance-peptides-nad'=>'Performance Peptides & Nad+',
            'orthopedics-pain-management'=>'Orthopedics & Pain Management',
@@ -199,7 +199,7 @@ global $services;
               <p class="m-0">
               The human body is capable of amazing transformations, LaSara Medical Group is just the catalyst to make that happen! We hope we are given the chance to help you just as we have helped countless patients before you.
               </p>
-              <a href="<?php echo get_site_url() ?>/about" class="btn btn-outline-secondary mt-5">Read More</a>
+              <a href="<?php echo get_site_url() ?>/our-mission" class="btn btn-outline-secondary mt-5">Read More</a>
             </div>
           </div>
         </div>
@@ -253,7 +253,7 @@ global $services;
                   <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/pharmaceuticals">Pharmaceutical Treatments</a></li>
                   <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/peptide-therapy">Peptide Therapies</a></li>
                 </ul>
-                <a href="<?php echo get_site_url() ?>/about/why-lasara-vs-the-competition" class="btn btn-lg btn-grad">Why LaSara?</a>
+                <a href="<?php echo get_site_url() ?>/research/knowledge-library" class="btn btn-lg btn-grad">LEARN MORE</a>
               </div>
             </div>
           </div>
@@ -312,6 +312,7 @@ global $services;
                     <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/tennis-and-golfers-elbow">Tennis And Golfer’s Elbow </a></li>
                     <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/muscle-pain-tear">Muscle Pain & Tear </a></li>
                     <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/hip-pain">Hip Pain </a></li>
+                    <li class="mb-2"><a href="<?php echo get_site_url() ?>/services/bone-healing">Bone Healing</a></li>
                   </ul>
                 </a>
               </div>
@@ -352,7 +353,7 @@ global $services;
             </div>
             <div class="col-lg-8 ps-lg-5 border-lg-left">
               <h3 class="font-extralight text-primary w-75">
-                We’ve Changed The Lives Of Countless Men We Can Change Yours Too
+				We’ve Changed The Lives Of Countless Patients We Can Change Yours Too
               </h3>
             </div>
           </div>

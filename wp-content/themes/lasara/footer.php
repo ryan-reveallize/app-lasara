@@ -162,7 +162,7 @@
               class="d-lg-flex justify-content-lg-between align-items-center"
             >
               <p class="copyright m-0 text-white-light">
-                © Copyright 2021 Copyright
+                © Copyright 2022
               </p>
               <ul class="list-unstyled m-0 p-0 d-flex flex-wrap">
                 <li>
