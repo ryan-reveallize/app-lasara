@@ -53,6 +53,10 @@
                 ];?>            
                 <?php get_template_part( 'template-parts/service-tile' );*/?>
                 <?php $services = [
+                    'mens-sexual-health-treatments' => 'Men’s Sexual Health Treatments',
+                    'hormones-peptides-nad' => 'Hormones, Peptides & NAD+ ',
+                    'orthopedics-pain-management' => 'Orthopedics & Pain Management',
+                    'aesthetics' => 'Aesthetics',
                     'erectile-dysfunction-shockwave-therapy' => 'Erectile Dysfunction Shockwave Therapy',
                     'peyronies-disease-or-penile-injury-shockwave-therapy' => 'Peyronie’s Disease Or Penile Injury Shockwave Therapy',
                     'pelvic-pain-syndrome-and-chronic-prostatitis' => 'Pelvic Pain Syndrome And Chronic Prostatitis Shockwave Therapy',
@@ -68,6 +72,7 @@
                     'tennis-and-golfers-elbow' => 'Tennis And Golfer’s Elbow',
                     'muscle-pain-tear' => 'Muscle Pain & Tear',
                     'hip-pain' => 'Hip Pain',
+                    'bone-healing' => 'Bone Fracture Healing',
                     'facial-skin-tightening-rejuvenation' => 'Facial Skin Tightening & Rejuvenation',
                     'scar-reduction-face-body' => 'Scar Reduction Face & Body',
                     'cellulite' => 'Cellulite',

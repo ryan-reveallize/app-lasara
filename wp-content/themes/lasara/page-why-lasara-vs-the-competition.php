@@ -123,22 +123,11 @@
         </div>
     </section>
 
-    <section class="py-5 px-xl-5">
-        <h2 class="mb-5 text-center">What We Offer</h2>
-        <div class="container-fluid px-xl-5">
-            <?php $services = [
-                'erectile-dysfunction-shockwave-therapy' => 'Erectile Dysfunction',
-                'peyronies-disease-or-penile-injury-shockwave-therapy' => 'Peyronie’s Disease',
-                'penile-sensitivity-regeneration' => 'Lack Of Penile Sensitivity',
-                'tennis-and-golfers-elbow' => 'Tennis Elbow',
-                'plantar-fasciitis-heel-spurs' => 'Plantar Fasciitis',
-                'scar-reduction-face-body' => 'Scar Tissue',
-                'jumpers-knee-patellar-tendinitis' => 'Tendonopathy',
-                'neuropathy' => 'Neuropathy',
-                'facial-skin-tightening-rejuvenation' => 'Skin Tightening Wrinkles',
-                'hip-pain' => 'Hip Pain',
-            ]; ?>
-            <?php get_template_part('template-parts/service-tile-w-link'); ?>
+    
+    <section class="py-5 mt-lg-5 what-we-offer">
+        <div class="container">
+            <?php get_template_part( 'template-parts/what-we-offer' );?>
+        </div>
     </section>
 
       <?php get_template_part('template-parts/locations'); ?>  

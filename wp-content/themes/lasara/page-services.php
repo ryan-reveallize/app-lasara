@@ -31,48 +31,10 @@
             </div>
         </div>
     </section>
-    <section class="py-5">
+
+    <section class="py-5 mt-lg-5 what-we-offer">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-10 col-lg-8">
-                    <h2 class="mb-0 text-center animate__animated" data-animate="slideInUp">What We Offer</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="py-5">
-        <div class="container-fluid">
-            <div class="mx-lg-5 px-lg-5">
-                <?php /*$services = [
-                    'Erectile Dysfunction',
-                    'Testosterone Replacement Therapy',
-                    'Performance Peptides & Nad+',
-                    'Orthopedics & Pain Management',
-                    'Aesthetics'
-                ];?>            
-                <?php get_template_part( 'template-parts/service-tile' );*/?>
-                <?php $services = [
-                    'erectile-dysfunction-shockwave-therapy' => 'Erectile Dysfunction Shockwave Therapy',
-                    'peyronies-disease-or-penile-injury-shockwave-therapy' => 'Peyronie’s Disease Or Penile Injury Shockwave Therapy',
-                    'pelvic-pain-syndrome-and-chronic-prostatitis' => 'Pelvic Pain Syndrome And Chronic Prostatitis Shockwave Therapy',
-                    'penile-injection-therapy' => 'Penile Injection Therapy',
-                    'pharmaceuticals' => 'Men’s Sexual Health Pharmaceutical',
-                    'testosterone-hormone-replace-therapy' => 'Testosterone Replacement Therapy',
-                    'peptide-therapy' => 'Peptide Therapy',
-                    'nad' => 'Nad+ Treatments',
-                    'neuropathy' => 'Neuropathy',
-                    'plantar-fasciitis-heel-spurs' => 'Plantar Fasciitis & Heel Spurs',
-                    'jumpers-knee-patellar-tendinitis' => 'Jumper’s Knee & Patellar Tendinitis',
-                    'painful-shoulder-tendinopathy' => 'Painful Shoulder',
-                    'tennis-and-golfers-elbow' => 'Tennis And Golfer’s Elbow',
-                    'muscle-pain-tear' => 'Muscle Pain & Tear',
-                    'hip-pain' => 'Hip Pain',
-                    'facial-skin-tightening-rejuvenation' => 'Facial Skin Tightening & Rejuvenation',
-                    'scar-reduction-face-body' => 'Scar Reduction Face & Body',
-                    'cellulite' => 'Cellulite',
-                ];?>            
-                <?php get_template_part( 'template-parts/service-tile-w-link' );?>
-            </div>
+            <?php get_template_part('template-parts/what-we-offer'); ?>
         </div>
     </section>
 </div>
